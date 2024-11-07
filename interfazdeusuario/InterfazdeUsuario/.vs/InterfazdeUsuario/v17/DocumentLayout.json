@@ -1,0 +1,107 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\naole\\OneDrive\\ProyectofinalMety\\interfazdeusuario\\InterfazdeUsuario\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8BB5133A-C661-4AF5-B56D-C84EA50C2E38}|InterfazdeUsuario\\InterfazdeUsuario.csproj|c:\\users\\naole\\onedrive\\proyectofinalmety\\interfazdeusuario\\interfazdeusuario\\interfazdeusuario\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8BB5133A-C661-4AF5-B56D-C84EA50C2E38}|InterfazdeUsuario\\InterfazdeUsuario.csproj|solutionrelative:interfazdeusuario\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BB5133A-C661-4AF5-B56D-C84EA50C2E38}|InterfazdeUsuario\\InterfazdeUsuario.csproj|C:\\Users\\naole\\OneDrive\\ProyectofinalMety\\interfazdeusuario\\InterfazdeUsuario\\interfazdeusuario\\models\\consejos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BB5133A-C661-4AF5-B56D-C84EA50C2E38}|InterfazdeUsuario\\InterfazdeUsuario.csproj|solutionrelative:interfazdeusuario\\models\\consejos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BB5133A-C661-4AF5-B56D-C84EA50C2E38}|InterfazdeUsuario\\InterfazdeUsuario.csproj|C:\\Users\\naole\\OneDrive\\ProyectofinalMety\\interfazdeusuario\\InterfazdeUsuario\\interfazdeusuario\\formularios\\aboutbox1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8BB5133A-C661-4AF5-B56D-C84EA50C2E38}|InterfazdeUsuario\\InterfazdeUsuario.csproj|solutionrelative:interfazdeusuario\\formularios\\aboutbox1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BB5133A-C661-4AF5-B56D-C84EA50C2E38}|InterfazdeUsuario\\InterfazdeUsuario.csproj|C:\\Users\\naole\\OneDrive\\ProyectofinalMety\\interfazdeusuario\\InterfazdeUsuario\\interfazdeusuario\\formularios\\aboutbox1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BB5133A-C661-4AF5-B56D-C84EA50C2E38}|InterfazdeUsuario\\InterfazdeUsuario.csproj|solutionrelative:interfazdeusuario\\formularios\\aboutbox1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BB5133A-C661-4AF5-B56D-C84EA50C2E38}|InterfazdeUsuario\\InterfazdeUsuario.csproj|C:\\Users\\naole\\OneDrive\\ProyectofinalMety\\interfazdeusuario\\InterfazdeUsuario\\interfazdeusuario\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BB5133A-C661-4AF5-B56D-C84EA50C2E38}|InterfazdeUsuario\\InterfazdeUsuario.csproj|solutionrelative:interfazdeusuario\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\naole\\OneDrive\\ProyectofinalMety\\interfazdeusuario\\InterfazdeUsuario\\InterfazdeUsuario\\Form1.cs",
+              "RelativeDocumentMoniker": "InterfazdeUsuario\\Form1.cs",
+              "ToolTip": "C:\\Users\\naole\\OneDrive\\ProyectofinalMety\\interfazdeusuario\\InterfazdeUsuario\\InterfazdeUsuario\\Form1.cs [Design]",
+              "RelativeToolTip": "InterfazdeUsuario\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T14:40:12.617Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "consejos.cs",
+              "DocumentMoniker": "C:\\Users\\naole\\OneDrive\\ProyectofinalMety\\interfazdeusuario\\InterfazdeUsuario\\InterfazdeUsuario\\models\\consejos.cs",
+              "RelativeDocumentMoniker": "InterfazdeUsuario\\models\\consejos.cs",
+              "ToolTip": "C:\\Users\\naole\\OneDrive\\ProyectofinalMety\\interfazdeusuario\\InterfazdeUsuario\\InterfazdeUsuario\\models\\consejos.cs",
+              "RelativeToolTip": "InterfazdeUsuario\\models\\consejos.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T01:48:44.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AboutBox1.cs",
+              "DocumentMoniker": "C:\\Users\\naole\\OneDrive\\ProyectofinalMety\\interfazdeusuario\\InterfazdeUsuario\\InterfazdeUsuario\\Formularios\\AboutBox1.cs",
+              "RelativeDocumentMoniker": "InterfazdeUsuario\\Formularios\\AboutBox1.cs",
+              "ToolTip": "C:\\Users\\naole\\OneDrive\\ProyectofinalMety\\interfazdeusuario\\InterfazdeUsuario\\InterfazdeUsuario\\Formularios\\AboutBox1.cs",
+              "RelativeToolTip": "InterfazdeUsuario\\Formularios\\AboutBox1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABaAQAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T02:16:01.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AboutBox1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\naole\\OneDrive\\ProyectofinalMety\\interfazdeusuario\\InterfazdeUsuario\\InterfazdeUsuario\\Formularios\\AboutBox1.cs",
+              "RelativeDocumentMoniker": "InterfazdeUsuario\\Formularios\\AboutBox1.cs",
+              "ToolTip": "C:\\Users\\naole\\OneDrive\\ProyectofinalMety\\interfazdeusuario\\InterfazdeUsuario\\InterfazdeUsuario\\Formularios\\AboutBox1.cs [Design]",
+              "RelativeToolTip": "InterfazdeUsuario\\Formularios\\AboutBox1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T02:09:26.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\naole\\OneDrive\\ProyectofinalMety\\interfazdeusuario\\InterfazdeUsuario\\InterfazdeUsuario\\Form1.cs",
+              "RelativeDocumentMoniker": "InterfazdeUsuario\\Form1.cs",
+              "ToolTip": "C:\\Users\\naole\\OneDrive\\ProyectofinalMety\\interfazdeusuario\\InterfazdeUsuario\\InterfazdeUsuario\\Form1.cs",
+              "RelativeToolTip": "InterfazdeUsuario\\Form1.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAkwBYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T01:48:23.408Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
