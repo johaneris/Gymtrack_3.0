@@ -198,6 +198,7 @@
             this.btnAdministrador.Text = "Administrador";
             this.btnAdministrador.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnAdministrador.UseVisualStyleBackColor = true;
+            this.btnAdministrador.Click += new System.EventHandler(this.btnAdministrador_Click);
             this.btnAdministrador.MouseLeave += new System.EventHandler(this.btnAdministrador_MouseLeave);
             this.btnAdministrador.MouseHover += new System.EventHandler(this.btnAdministrador_MouseHover);
             // 

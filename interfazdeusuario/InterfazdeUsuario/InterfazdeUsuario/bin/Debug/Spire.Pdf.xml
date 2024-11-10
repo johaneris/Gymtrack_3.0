@@ -8534,6 +8534,21 @@
             Gets or sets the icon of the annotation.
             </summary>
         </member>
+        <member name="T:Spire.Pdf.Annotations.PdfRichMediaAnnotationWidget">
+            <summary>
+            Represents the loaded rich media annotation class.
+            </summary>
+        </member>
+        <member name="P:Spire.Pdf.Annotations.PdfRichMediaAnnotationWidget.RichMediaData">
+            <summary>
+            Get the rich media data.
+            </summary>
+        </member>
+        <member name="P:Spire.Pdf.Annotations.PdfRichMediaAnnotationWidget.RichMediaName">
+            <summary>
+            Get the rich media file name.
+            </summary>
+        </member>
         <member name="T:Spire.Pdf.Annotations.PdfRubberStampAnnotationWidget">
             <summary>
             Represents the loaded rubber stamp annotation class.
@@ -8710,6 +8725,12 @@
             <summary>
             Gets or sets the color.
             </summary>
+        </member>
+        <member name="P:Spire.Pdf.Annotations.PdfTextMarkupAnnotationWidget.QuadPoints">
+            <summary>
+            Specifying the coordinates of n quadrilaterals. (The area specified by the Rect entry is used by default.)
+            </summary>
+            <remarks>If any coordinates in the array are outside the area specified by Rect, QuadPoints will be ignored.</remarks>
         </member>
         <member name="M:Spire.Pdf.Annotations.PdfTextMarkupAnnotationWidget.#ctor(Spire.Pdf.Core.PdfDictionary,System.Drawing.RectangleF)">
             <summary>
@@ -9339,6 +9360,11 @@
         <member name="F:Spire.Pdf.Annotations.PdfAnnotationWidgetTypes.CircleAnnotation">
             <summary>
             Circle Annotation type
+            </summary>
+        </member>
+        <member name="F:Spire.Pdf.Annotations.PdfAnnotationWidgetTypes.RichMediaAnnotation">
+            <summary>
+            RichMedia Annotation type
             </summary>
         </member>
         <member name="T:Spire.Pdf.Annotations.PdfPolygonIntent">
@@ -31436,203 +31462,10 @@
             Cell borders are drawns in the cell's interior.
             </summary>
         </member>
-        <member name="T:Spire.Additions.Chrome.Browser">
-            <summary>
-                Handles all the communication tasks with Chromium remote dev tools
-            </summary>
-            <remarks>
-                See https://chromedevtools.github.io/devtools-protocol/
-            </remarks>
-        </member>
-        <member name="F:Spire.Additions.Chrome.Browser._browserConnection">
-            <summary>
-                A connection to the browser (Chrome or Edge)
-            </summary>
-        </member>
-        <member name="F:Spire.Additions.Chrome.Browser._pageConnection">
-            <summary>
-                A connection to a page
-            </summary>
-        </member>
-        <member name="F:Spire.Additions.Chrome.Browser._disposed">
-            <summary>
-                Keeps track is we already disposed our resources
-            </summary>
-        </member>
-        <member name="M:Spire.Additions.Chrome.Browser.#ctor(System.Uri,System.Int32,Spire.Additions.Chrome.ILogger)">
-            <summary>
-                Makes this object and sets the Chromium remote debugging url
-            </summary>
-            <param name="browser">The websocket to the browser</param>
-            <param name="timeout">Websocket open timeout in milliseconds</param>
-            <param name="logger"><see cref="T:Spire.Additions.Chrome.Logger"/></param>
-        </member>
-        <member name="T:Spire.Additions.Chrome.Browser.PageLoadingState">
-            <summary>
-                An enum to keep track of the page loading state
-            </summary>
-        </member>
-        <member name="F:Spire.Additions.Chrome.Browser.PageLoadingState.Loading">
-            <summary>
-                The page is loading
-            </summary>
-        </member>
-        <member name="F:Spire.Additions.Chrome.Browser.PageLoadingState.WaitForNetworkIdle">
-            <summary>
-                Waiting for the network to be idle
-            </summary>
-        </member>
-        <member name="F:Spire.Additions.Chrome.Browser.PageLoadingState.MediaLoadTimeout">
-            <summary>
-                The loading of the media on the page timed out
-            </summary>
-        </member>
-        <member name="F:Spire.Additions.Chrome.Browser.PageLoadingState.BlockedByClient">
-            <summary>
-                The page is blocked
-            </summary>
-        </member>
-        <member name="F:Spire.Additions.Chrome.Browser.PageLoadingState.Closed">
-            <summary>
-                The page is closed
-            </summary>
-        </member>
-        <member name="F:Spire.Additions.Chrome.Browser.PageLoadingState.Done">
-            <summary>
-                The page finished loading normally
-            </summary>
-        </member>
-        <member name="M:Spire.Additions.Chrome.Browser.NavigateToAsync(Spire.Additions.Chrome.ConvertUri,System.Threading.CancellationToken)">
-            <summary>
-                Instructs Chromium to navigate to the given <paramref name="uri" />
-            </summary>
-            <param name="safeUrls">A list with URL's that are safe to load</param>
-            <param name="useCache">When <c>true</c> then caching will be enabled</param>
-            <param name="uri"></param>
-            <param name="html"></param>
-            <param name="countdownTimer">
-                If a <see cref="!:CountdownTimer" /> is set then
-                the method will raise a <see cref="!:ConversionTimedOutException" /> if the
-                <see cref="!:CountdownTimer" /> reaches zero before finishing navigation
-            </param>
-            <param name="mediaLoadTimeout">
-                When set a timeout will be started after the DomContentLoaded
-                event has fired. After a timeout the NavigateTo method will exit as if the page
-                has been completely loaded
-            </param>
-            <param name="urlBlacklist">A list with URL's that need to be blocked (use * as a wildcard)</param>
-            <param name="logNetworkTraffic">When enabled network traffic is also logged</param>
-            <param name="waitForNetworkIdle">When enabled the method will wait for the network to be idle</param>
-            <param name="cancellationToken"><see cref="T:System.Threading.CancellationToken"/></param>
-            <exception cref="!:ChromiumException">Raised when an error is returned by Chromium</exception>
-            <exception cref="!:ConversionTimedOutException">Raised when <paramref name="countdownTimer" /> reaches zero</exception>
-        </member>
-        <member name="M:Spire.Additions.Chrome.Browser.PrintToPdfAsync(System.IO.Stream,Spire.Additions.Chrome.PageSettings,System.Threading.CancellationToken)">
-            <summary>
-                Instructs Chromium to print the page
-            </summary>
-            <param name="outputStream">The generated PDF gets written to this stream</param>
-            <param name="pageSettings">
-                <see cref="T:Spire.Additions.Chrome.PageSettings" />
-            </param>
-            <param name="countdownTimer">
-                If a <see cref="!:CountdownTimer" /> is set then
-                the method will raise a <see cref="!:ConversionTimedOutException" /> in the
-                <see cref="!:CountdownTimer" /> reaches zero before finishing the printing to pdf
-            </param>
-            <param name="cancellationToken"><see cref="T:System.Threading.CancellationToken"/></param>
-            <remarks>
-                See https://chromedevtools.github.io/devtools-protocol/tot/Page/#method-printToPDF
-            </remarks>
-            <exception cref="!:ConversionException">Raised when Chromium returns an empty string</exception>
-            <exception cref="!:ConversionTimedOutException">Raised when <paramref name="countdownTimer" /> reaches zero</exception>
-        </member>
-        <member name="M:Spire.Additions.Chrome.Browser.CloseAsync(System.Threading.CancellationToken)">
-            <summary>
-                Instructs the browser to close
-            </summary>
-            <param name="cancellationToken"><see cref="T:System.Threading.CancellationToken"/></param>
-            <returns></returns>
-        </member>
-        <member name="M:Spire.Additions.Chrome.Browser.Dispose">
-            <summary>
-                Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
-            </summary>
-        </member>
         <member name="T:Spire.Additions.Chrome.ChromeHtmlConverter">
             <summary>
             HTML Converter,convert HTML to PDF,only supports browsers with Blink engine.
             </summary>
-        </member>
-        <member name="F:Spire.Additions.Chrome.ChromeHtmlConverter._browserUsed">
-            <summary>
-            <see cref="T:Spire.Additions.Chrome.Enums.Browser" />
-            </summary>
-        </member>
-        <member name="F:Spire.Additions.Chrome.ChromeHtmlConverter._chromiumExeFileName">
-            <summary>
-            Chrome or Edge with it's full path
-            </summary>
-        </member>
-        <member name="F:Spire.Additions.Chrome.ChromeHtmlConverter._chromiumProcess">
-            <summary>
-            The process id under which the Chromium based browser is running
-            </summary>
-        </member>
-        <member name="F:Spire.Additions.Chrome.ChromeHtmlConverter._browser">
-            <summary>
-                Handles the communication with the Chromium based browser dev tools
-            </summary>
-        </member>
-        <member name="F:Spire.Additions.Chrome.ChromeHtmlConverter._defaultChromiumArgument">
-            <summary>
-                The default Chromium arguments
-            </summary>
-        </member>
-        <member name="F:Spire.Additions.Chrome.ChromeHtmlConverter._userProfileSet">
-            <summary>
-                A flag to keep track if a user-data-dir has been set
-            </summary>
-        </member>
-        <member name="F:Spire.Additions.Chrome.ChromeHtmlConverter._preWrapExtensions">
-            <summary>
-                Used to add the extension of text based files that needed to be wrapped in an HTML PRE
-                tag so that they can be opened by the Chromium based browser
-            </summary>
-        </member>
-        <member name="F:Spire.Additions.Chrome.ChromeHtmlConverter._devToolsActivePortFile">
-            <summary>
-                The file that Chromium creates to tell us on what port it is listening with the devtools
-            </summary>
-        </member>
-        <member name="F:Spire.Additions.Chrome.ChromeHtmlConverter._disposed">
-            <summary>
-                Keeps track is we already disposed our resources
-            </summary>
-        </member>
-        <member name="P:Spire.Additions.Chrome.ChromeHtmlConverter.BrowserName">
-            <summary>
-                Returns the Chromium based browser name
-            </summary>
-        </member>
-        <member name="P:Spire.Additions.Chrome.ChromeHtmlConverter.DefaultChromiumArguments">
-            <summary>
-                Returns the list with default arguments that are send to the Chromium based browser when starting
-            </summary>
-        </member>
-        <member name="P:Spire.Additions.Chrome.ChromeHtmlConverter.WebSocketTimeout">
-            <summary>
-                The timeout in milliseconds when waiting for a web socket to open
-            </summary>
-            <remarks>
-                Default 30 seconds
-            </remarks>
-        </member>
-        <member name="P:Spire.Additions.Chrome.ChromeHtmlConverter.IsChromiumRunning">
-            <summary>
-                Returns <c>true</c> when the Chromium based browser is running
-            </summary>
-            <returns></returns>
         </member>
         <member name="P:Spire.Additions.Chrome.ChromeHtmlConverter.Logger">
             <summary>
@@ -31683,220 +31516,7 @@
             <param name="outputStream">The output stream</param>
             <param name="options">The convert options</param>
         </member>
-        <member name="M:Spire.Additions.Chrome.ChromeHtmlConverter.ConvertToPdfAsync(Spire.Additions.Chrome.ConvertUri,System.IO.Stream,Spire.Additions.Chrome.PageSettings,System.Threading.CancellationToken)">
-            <summary>
-                Converts the given <paramref name="inputUri" /> to PDF
-            </summary>
-            <param name="inputUri">The webpage to convert</param>
-            <param name="outputStream">The output stream</param>
-            <param name="pageSettings">
-                <see cref="T:Spire.Additions.Chrome.PageSettings" />
-            </param>
-            <param name="waitForWindowStatus">
-                Wait until the javascript window.status has this value before
-                rendering the PDF
-            </param>
-            <param name="waitForWindowsStatusTimeout"></param>
-            <param name="conversionTimeout">
-                An conversion timeout in milliseconds, if the conversion fails
-                to finished in the set amount of time then an <see cref="!:ConversionTimedOutException" /> is raised
-            </param>
-            <param name="mediaLoadTimeout">
-                When set a timeout will be started after the DomContentLoaded
-                event has fired. After a timeout the NavigateTo method will exit as if the page has been completely loaded
-            </param>
-            <param name="logger">
-                When set then this will give a logging for each conversion. Use the logger
-                option in the constructor if you want one log for all conversions
-            </param>
-            <param name="cancellationToken"><see cref="T:System.Threading.CancellationToken"/></param>
-            <exception cref="!:ConversionTimedOutException">
-                Raised when <paramref name="conversionTimeout" /> is set and the
-                conversion fails to finish in this amount of time
-            </exception>
-            <remarks>
-                When the property <see cref="!:CaptureSnapshot" /> has been set then the snapshot is saved to the
-                property <see cref="!:SnapshotStream" />
-            </remarks>
-        </member>
-        <member name="M:Spire.Additions.Chrome.ChromeHtmlConverter.CheckIfOutputFolderExists(System.String)">
-            <summary>
-                Checks if the path to the given <paramref name="outputFile" /> exists.
-                An <see cref="T:System.IO.DirectoryNotFoundException" /> is thrown when the path is not valid
-            </summary>
-            <param name="outputFile"></param>
-            <exception cref="T:System.IO.DirectoryNotFoundException"></exception>
-        </member>
-        <member name="M:Spire.Additions.Chrome.ChromeHtmlConverter.StartChromiumHeadlessAsync(System.Threading.CancellationToken)">
-            <summary>
-                Start Google Chrome or Microsoft Edge headless
-            </summary>
-            <remarks>
-                If Chrome or Edge is already running then this step is skipped
-            </remarks>
-            <returns><see cref="T:System.Threading.CancellationToken"/></returns>
-            <exception cref="!:ChromiumException"></exception>
-        </member>
-        <member name="M:Spire.Additions.Chrome.ChromeHtmlConverter.ConnectToDevProtocol(System.Uri,System.String)">
-            <summary>
-                Connects to the Chromium dev protocol
-            </summary>
-            <param name="uri">The uri to connect to</param>
-            <param name="readUriFrom">From where we did get the uri</param>
-        </member>
-        <member name="M:Spire.Additions.Chrome.ChromeHtmlConverter.ResetChromiumArguments">
-            <summary>
-                Resets the <see cref="P:Spire.Additions.Chrome.ChromeHtmlConverter.DefaultChromiumArguments" /> to their default settings
-            </summary>
-        </member>
-        <member name="M:Spire.Additions.Chrome.ChromeHtmlConverter.AddChromiumArgument(System.String)">
-            <summary>
-                Adds an extra conversion argument to the <see cref="P:Spire.Additions.Chrome.ChromeHtmlConverter.DefaultChromiumArguments" />
-            </summary>
-            <remarks>
-                This is a one time only default setting which can not be changed when doing multiple conversions.
-                Set this before doing any conversions. You can get all the set argument through the
-                <see cref="P:Spire.Additions.Chrome.ChromeHtmlConverter.DefaultChromiumArguments" /> property
-            </remarks>
-            <param name="argument">The Chromium argument</param>
-        </member>
-        <member name="M:Spire.Additions.Chrome.ChromeHtmlConverter.AddChromiumArgument(System.String,System.String)">
-            <summary>
-                Adds an extra conversion argument with value to the <see cref="P:Spire.Additions.Chrome.ChromeHtmlConverter.DefaultChromiumArguments" />
-                or replaces it when it already exists
-            </summary>
-            <remarks>
-                This is a one time only default setting which can not be changed when doing multiple conversions.
-                Set this before doing any conversions. You can get all the set argument through the
-                <see cref="P:Spire.Additions.Chrome.ChromeHtmlConverter.DefaultChromiumArguments" /> property
-            </remarks>
-            <param name="argument">The Chromium argument</param>
-            <param name="value">The argument value</param>
-        </member>
-        <member name="M:Spire.Additions.Chrome.ChromeHtmlConverter.SetWindowSize(System.Int32,System.Int32)">
-            <summary>
-                Sets the viewport size to use when converting
-            </summary>
-            <remarks>
-                This is a one time only default setting which can not be changed when doing multiple conversions.
-                Set this before doing any conversions.
-            </remarks>
-            <param name="width">The width</param>
-            <param name="height">The height</param>
-            <exception cref="T:System.ArgumentOutOfRangeException">
-                Raised when <paramref name="width" /> or <paramref name="height" /> is smaller then or zero
-            </exception>
-        </member>
         <member name="M:Spire.Additions.Chrome.ChromeHtmlConverter.Dispose">
-            <summary>
-                Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
-            </summary>
-        </member>
-        <member name="M:Spire.Additions.Chrome.ChromeHtmlConverter.KillProcessAndChildren(System.Int32)">
-            <summary>
-                Kill the process with given id and all it's children
-            </summary>
-            <param name="processId">The process id</param>
-        </member>
-        <member name="T:Spire.Additions.Chrome.Connection">
-            <summary>
-                A connection to a page (tab) in Chromium
-            </summary>
-        </member>
-        <member name="E:Spire.Additions.Chrome.Connection.Closed">
-            <summary>
-                Triggered when a connection to the <see cref="F:Spire.Additions.Chrome.Connection._webSocket" /> is closed
-            </summary>
-        </member>
-        <member name="E:Spire.Additions.Chrome.Connection.MessageReceived">
-            <summary>
-                Triggered when a new message is received on the <see cref="F:Spire.Additions.Chrome.Connection._webSocket" />
-            </summary>
-        </member>
-        <member name="F:Spire.Additions.Chrome.Connection._logger">
-            <summary>
-                <see cref="T:Spire.Additions.Chrome.Logger"/>
-            </summary>
-        </member>
-        <member name="F:Spire.Additions.Chrome.Connection._receiveLoopCts">
-            <summary>
-                <see cref="!:ReceiveLoop"/>
-            </summary>
-        </member>
-        <member name="F:Spire.Additions.Chrome.Connection._url">
-            <summary>
-                The url of the websocket
-            </summary>
-        </member>
-        <member name="F:Spire.Additions.Chrome.Connection._messageId">
-            <summary>
-                The current message id
-            </summary>
-        </member>
-        <member name="F:Spire.Additions.Chrome.Connection._webSocket">
-            <summary>
-                The websocket
-            </summary>
-        </member>
-        <member name="F:Spire.Additions.Chrome.Connection._timeout">
-            <summary>
-                Websocket open timeout in milliseconds
-            </summary>
-        </member>
-        <member name="F:Spire.Additions.Chrome.Connection._receiveTask">
-            <summary>
-            Task to await for <see cref="!:ReceiveLoop"/> completion.
-            </summary>
-        </member>
-        <member name="F:Spire.Additions.Chrome.Connection._disposed">
-            <summary>
-                Keeps track is we already disposed our resources
-            </summary>
-        </member>
-        <member name="M:Spire.Additions.Chrome.Connection.#ctor(System.String,System.Int32,Spire.Additions.Chrome.ILogger)">
-            <summary>
-                Makes this object and sets all it's needed properties
-            </summary>
-            <param name="url">The url</param>
-            <param name="timeout">Websocket open timeout in milliseconds</param>
-            <param name="logger"><see cref="T:Spire.Additions.Chrome.Logger"/></param>
-        </member>
-        <member name="M:Spire.Additions.Chrome.Connection.SendForResponseAsync(Spire.Additions.Chrome.Protocol.Message,System.Threading.CancellationToken)">
-            <summary>
-                Sends a message asynchronously to the <see cref="F:Spire.Additions.Chrome.Connection._webSocket" /> and returns response
-            </summary>
-            <param name="message">The message to send</param>
-            <param name="cancellationToken"><see cref="T:System.Threading.CancellationToken"/></param>
-            <returns>Response given by <see cref="F:Spire.Additions.Chrome.Connection._webSocket" /></returns>
-        </member>
-        <member name="M:Spire.Additions.Chrome.Connection.SendForResponseAsync(Spire.Additions.Chrome.Protocol.Message,Spire.Additions.Chrome.Connection.ReceiveHandler,System.Threading.CancellationToken)">
-            <summary>
-                Sends a message asynchronously to the <see cref="F:Spire.Additions.Chrome.Connection._webSocket" /> and returns response
-            </summary>
-            <param name="message">The message to send</param>
-            <param name="cancellationToken"><see cref="T:System.Threading.CancellationToken"/></param>
-            <returns>Response given by <see cref="F:Spire.Additions.Chrome.Connection._webSocket" /></returns>
-        </member>
-        <member name="M:Spire.Additions.Chrome.Connection.SendAsync(Spire.Additions.Chrome.Protocol.Message)">
-            <summary>
-                Sends a message to the <see cref="F:Spire.Additions.Chrome.Connection._webSocket" /> and awaits no response
-            </summary>
-            <param name="message">The message to send</param>
-            <returns></returns>
-        </member>
-        <member name="M:Spire.Additions.Chrome.Connection.MessageToBytes(Spire.Additions.Chrome.Protocol.MessageBase)">
-            <summary>
-                Checks if <paramref name="message" /> contains an error and if so returns this error, <c>null</c> otherwise
-            </summary>
-            <param name="message"></param>
-        </member>
-        <member name="M:Spire.Additions.Chrome.Connection.InternalDisposeAsync">
-            <summary>
-                Closes the websocket connection
-            </summary>
-            <returns></returns>
-        </member>
-        <member name="M:Spire.Additions.Chrome.Connection.Dispose">
             <summary>
                 Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
             </summary>
@@ -31918,59 +31538,6 @@
             <remarks>
             Default 30 seconds
             </remarks>
-        </member>
-        <member name="T:Spire.Additions.Chrome.ConvertUri">
-            <summary>
-                <inheritdoc cref="T:System.Uri" />
-            </summary>
-        </member>
-        <member name="P:Spire.Additions.Chrome.ConvertUri.Encoding">
-            <summary>
-                The encoding of the file that will be converted
-            </summary>
-        </member>
-        <member name="P:Spire.Additions.Chrome.ConvertUri.RequestHeaders">
-            <summary>
-                The request headers to sent
-            </summary>
-        </member>
-        <member name="M:Spire.Additions.Chrome.ConvertUri.#ctor(System.String,System.Collections.Generic.Dictionary{System.String,System.String})">
-            <summary>
-                The uri to converter
-            </summary>
-            <param name="uriString"></param>
-            <param name="requestHeaders">The request headers to sent</param>
-        </member>
-        <member name="M:Spire.Additions.Chrome.ConvertUri.#ctor(System.String,System.Text.Encoding,System.Collections.Generic.Dictionary{System.String,System.String})">
-            <summary>
-                Sets the uri and encoding
-            </summary>
-            <param name="uriString">The uri, e.g. file://c:\test.txt</param>
-            <param name="encoding">The encoding used for this file, e.g UTF-8</param>
-            <param name="requestHeaders">The request headers to sent</param>
-        </member>
-        <member name="M:Spire.Additions.Chrome.ConvertUri.#ctor(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.String})">
-            <summary>
-                Sets the uri and encoding
-            </summary>
-            <param name="uriString">The uri, e.g. file://c:\test.txt</param>
-            <param name="encoding">The encoding used for this file, e.g UTF-8</param>
-            <param name="requestHeaders">The request headers to sent</param>
-        </member>
-        <member name="T:Spire.Additions.Chrome.Enums.Browser">
-            <summary>
-                The paper formats to use when converting to PDF
-            </summary>
-        </member>
-        <member name="F:Spire.Additions.Chrome.Enums.Browser.Chrome">
-            <summary>
-                Use Google Chrome to as headless browser
-            </summary>
-        </member>
-        <member name="F:Spire.Additions.Chrome.Enums.Browser.Edge">
-            <summary>
-                Use Microsoft Edge as headless browser
-            </summary>
         </member>
         <member name="T:Spire.Additions.Chrome.Enums.PaperFormat">
             <summary>
@@ -32037,54 +31604,6 @@
                 Fit the page to the width and height of the content it is displaying
             </summary>
         </member>
-        <member name="T:Spire.Additions.Chrome.Event.ErrorEventArgs">
-            <summary>
-                Raised when an error is thrown from Chromium
-            </summary>
-        </member>
-        <member name="P:Spire.Additions.Chrome.Event.ErrorEventArgs.Exception">
-            <summary>
-                Returns the raised exception
-            </summary>
-        </member>
-        <member name="M:Spire.Additions.Chrome.Event.ErrorEventArgs.#ctor(System.Exception)">
-            <summary>
-                Raised when an exception occurs
-            </summary>
-            <param name="exception"></param>
-        </member>
-        <member name="T:Spire.Additions.Chrome.Event.MessageReceivedEventArgs">
-            <summary>
-                <see cref="T:System.EventArgs" />
-            </summary>
-        </member>
-        <member name="P:Spire.Additions.Chrome.Event.MessageReceivedEventArgs.Message">
-            <summary>
-                The received message
-            </summary>
-        </member>
-        <member name="M:Spire.Additions.Chrome.Event.MessageReceivedEventArgs.#ctor(System.String)">
-            <summary>
-                Raised when a massage is received
-            </summary>
-            <param name="message"></param>
-        </member>
-        <member name="T:Spire.Additions.Chrome.Helpers.ChromeFinder">
-            <summary>
-                This class searches for the Chrome or Chromium executables cross-platform.
-            </summary>
-        </member>
-        <member name="M:Spire.Additions.Chrome.Helpers.ChromeFinder.Find">
-            <summary>
-                Tries to find Chrome
-            </summary>
-            <returns></returns>
-        </member>
-        <member name="T:Spire.Additions.Chrome.Helpers.ExceptionHelpers">
-            <summary>
-                Exception helper methods
-            </summary>
-        </member>
         <member name="M:Spire.Additions.Chrome.Helpers.ExceptionHelpers.GetInnerException(System.Exception)">
             <summary>
                 Returns the full exception with it's inner exceptions as a string
@@ -32127,144 +31646,12 @@
             </summary>
             <param name="logFilePath">Generated log file path</param>
         </member>
-        <member name="T:Spire.Additions.Chrome.Protocol.IoReadResponse">
-            <summary>
-                The JSON structure that is returned from Chromium when reading from an IO stream
-            </summary>
-        </member>
-        <member name="P:Spire.Additions.Chrome.Protocol.IoReadResponse.Result">
-            <summary>
-                <see cref="T:Spire.Additions.Chrome.Protocol.IoReadResponseResult" />
-            </summary>
-        </member>
         <member name="M:Spire.Additions.Chrome.Protocol.IoReadResponse.MyFromJson(System.String)">
             <summary>
                 Returns this object deserialized from the given <paramref name="json" /> string
             </summary>
             <param name="json"></param>
             <returns></returns>
-        </member>
-        <member name="T:Spire.Additions.Chrome.Protocol.IoReadResponseResult">
-            <summary>
-                The chunk read
-            </summary>
-        </member>
-        <member name="P:Spire.Additions.Chrome.Protocol.IoReadResponseResult.Base64Encoded">
-            <summary>
-                Returns <c>true</c> when <see cref="P:Spire.Additions.Chrome.Protocol.IoReadResponseResult.Data" /> is base64 encoded
-            </summary>
-        </member>
-        <member name="P:Spire.Additions.Chrome.Protocol.IoReadResponseResult.Data">
-            <summary>
-                Returns the data as a base64 encoded string
-            </summary>
-        </member>
-        <member name="P:Spire.Additions.Chrome.Protocol.IoReadResponseResult.Bytes">
-            <summary>
-                Returns <see cref="P:Spire.Additions.Chrome.Protocol.PrintToPdfResult.Data" /> as array of bytes
-            </summary>
-        </member>
-        <member name="P:Spire.Additions.Chrome.Protocol.IoReadResponseResult.Eof">
-            <summary>
-                Returns <c>true</c> when at the end of the file
-            </summary>
-        </member>
-        <member name="T:Spire.Additions.Chrome.Protocol.Message">
-            <summary>
-                The JSON message that is sent to Chromium
-            </summary>
-        </member>
-        <member name="P:Spire.Additions.Chrome.Protocol.Message.Method">
-            <summary>
-                The method executed by Chrome
-            </summary>
-        </member>
-        <member name="P:Spire.Additions.Chrome.Protocol.Message.Parameters">
-            <summary>
-                The parameters that we want to feed into Chromium
-            </summary>
-        </member>
-        <member name="M:Spire.Additions.Chrome.Protocol.Message.#ctor">
-            <summary>
-                Creates this object and sets it's needed properties
-            </summary>
-        </member>
-        <member name="M:Spire.Additions.Chrome.Protocol.Message.AddParameter(System.String,System.Object)">
-            <summary>
-                Add's a parameter to <see cref="P:Spire.Additions.Chrome.Protocol.Message.Parameters" />
-            </summary>
-            <param name="name">The name</param>
-            <param name="value">The value</param>
-        </member>
-        <member name="M:Spire.Additions.Chrome.Protocol.Message.MyFromJson(System.String)">
-            <summary>
-                Returns this object deserialized from the given <paramref name="json" /> string
-            </summary>
-            <param name="json"></param>
-            <returns></returns>
-        </member>
-        <member name="T:Spire.Additions.Chrome.Protocol.MessageBase">
-            <summary>
-                The base for a <see cref="T:Spire.Additions.Chrome.Protocol.Message" />
-            </summary>
-        </member>
-        <member name="P:Spire.Additions.Chrome.Protocol.MessageBase.Id">
-            <summary>
-                The message id
-            </summary>
-        </member>
-        <member name="M:Spire.Additions.Chrome.Protocol.MessageBase.MyToJson">
-            <summary>
-                Returns this object as a JSON string
-            </summary>
-            <returns></returns>
-        </member>
-        <member name="T:Spire.Additions.Chrome.Protocol.Page.Base">
-            <summary>
-                The base
-            </summary>
-        </member>
-        <member name="P:Spire.Additions.Chrome.Protocol.Page.Base.Method">
-            <summary>
-                The method executed by Chromium
-            </summary>
-        </member>
-        <member name="T:Spire.Additions.Chrome.Protocol.PrintToPdfResponse">
-            <summary>
-                The JSON object that is returned from Chrome when calling the <see cref="!:Converter" /> ConvertToPdf method
-            </summary>
-        </member>
-        <member name="P:Spire.Additions.Chrome.Protocol.PrintToPdfResponse.Result">
-            <summary>
-                <see cref="T:Spire.Additions.Chrome.Protocol.PrintToPdfResult" />
-            </summary>
-        </member>
-        <member name="P:Spire.Additions.Chrome.Protocol.PrintToPdfResponse.Bytes">
-            <summary>
-                Returns <see cref="P:Spire.Additions.Chrome.Protocol.PrintToPdfResult.Data" /> as array of bytes
-            </summary>
-        </member>
-        <member name="M:Spire.Additions.Chrome.Protocol.PrintToPdfResponse.MyFromJson(System.String)">
-            <summary>
-                Returns this object deserialized from the given <paramref name="json" /> string
-            </summary>
-            <param name="json"></param>
-            <returns></returns>
-        </member>
-        <member name="T:Spire.Additions.Chrome.Protocol.PrintToPdfResult">
-            <summary>
-                The result returned from the <see cref="!:Converter" /> ConvertToPdf  method
-            </summary>
-        </member>
-        <member name="P:Spire.Additions.Chrome.Protocol.PrintToPdfResult.Data">
-            <summary>
-                The PDF as base64 string
-            </summary>
-        </member>
-        <member name="P:Spire.Additions.Chrome.Protocol.PrintToPdfResult.Stream">
-            <summary>
-                Returns a stream handle number
-            </summary>
         </member>
         <member name="T:Spire.Additions.Chrome.PageSettings">
             <summary>
@@ -32274,29 +31661,6 @@
         <member name="P:Spire.Additions.Chrome.PageSettings.Landscape">
             <summary>
                 Paper orientation. Defaults to false.
-            </summary>
-        </member>
-        <member name="P:Spire.Additions.Chrome.PageSettings.DisplayHeaderFooter">
-            <summary>
-                Display header and footer. Defaults to false.
-            </summary>
-        </member>
-        <member name="P:Spire.Additions.Chrome.PageSettings.HeaderTemplate">
-            <summary>
-                HTML template for the print header.
-                Should be valid HTML markup with following classes used to inject printing values into them:
-                - date - formatted print date - title - document title - url - document location - pageNumber - current page number
-                - totalPages - total pages in the document For example, would generate span containing the title.
-            </summary>
-        </member>
-        <member name="P:Spire.Additions.Chrome.PageSettings.FooterTemplate">
-            <summary>
-                HTML template for the print footer. Should use the same format as the headerTemplate.
-            </summary>
-        </member>
-        <member name="P:Spire.Additions.Chrome.PageSettings.PrintBackground">
-            <summary>
-                Print background graphics. Defaults to false.
             </summary>
         </member>
         <member name="P:Spire.Additions.Chrome.PageSettings.Scale">
@@ -32334,36 +31698,9 @@
                 Right margin in inches. Defaults to 1cm (~0.4 inches).
             </summary>
         </member>
-        <member name="P:Spire.Additions.Chrome.PageSettings.PageRanges">
-            <summary>
-                Paper ranges to print, e.g., '1-5, 8, 11-13'. Defaults to the empty string, which means print all pages.
-            </summary>
-        </member>
-        <member name="P:Spire.Additions.Chrome.PageSettings.IgnoreInvalidPageRanges">
-            <summary>
-                Whether to silently ignore invalid but successfully parsed page ranges, such as '3-2'. Defaults to false.
-            </summary>
-        </member>
-        <member name="P:Spire.Additions.Chrome.PageSettings.PreferCSSPageSize">
-            <summary>
-                Whether or not to prefer page size as defined by css. Defaults to false, in which case the content will be scaled
-                to fit the paper size.
-            </summary>
-        </member>
         <member name="P:Spire.Additions.Chrome.PageSettings.PaperFormat">
             <summary>
                 The paper format
-            </summary>
-        </member>
-        <member name="P:Spire.Additions.Chrome.PageSettings.TaggedPDF">
-            <summary>
-                Generate tagged PDF. Defaults to true.
-            </summary>
-        </member>
-        <member name="P:Spire.Additions.Chrome.PageSettings.GenerateOutline">
-            <summary>
-                Generate outline bookmarks from header tags (H1-H6). Defaults to false.
-                Requires both <see cref="!:Converter.UseOldHeadlessMode"/> and <see cref="P:Spire.Additions.Chrome.PageSettings.TaggedPDF"/> set to <c>true</c>.
             </summary>
         </member>
         <member name="M:Spire.Additions.Chrome.PageSettings.#ctor">
@@ -32401,28 +31738,6 @@
                 Creates a new object that is a copy of the current instance.
             </summary>
             <returns>A new object that is a copy of this instance.</returns>
-        </member>
-        <member name="T:Spire.Additions.ChromeLib.Protocol.Page.Page">
-            <summary>
-                The JSON object that is returned when we create a new Target (page)
-            </summary>
-        </member>
-        <member name="P:Spire.Additions.ChromeLib.Protocol.Page.Page.Result">
-            <summary>
-                The result
-            </summary>
-        </member>
-        <member name="M:Spire.Additions.ChromeLib.Protocol.Page.Page.MyFromJson(System.String)">
-            <summary>
-                Returns this object deserialized from the given <paramref name="json" /> string
-            </summary>
-            <param name="json"></param>
-            <returns></returns>
-        </member>
-        <member name="T:Spire.Additions.ChromeLib.Protocol.Page.PageResult">
-            <summary>
-                Part of the <see cref="T:Spire.Additions.ChromeLib.Protocol.Page.Page" /> class
-            </summary>
         </member>
         <member name="F:Spire.Additions.Html.HtmlConverter.m_loadHtmlTimeout">
             <summary>
