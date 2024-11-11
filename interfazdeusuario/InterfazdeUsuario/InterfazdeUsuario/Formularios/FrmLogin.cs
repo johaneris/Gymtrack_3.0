@@ -40,35 +40,34 @@ namespace InterfazdeUsuario.Formularios
             string password = TbPassword.Text;
             //this.Close();
 
-            if (loginService.Authenticate(user, password))
+            string autenticar = loginService.Authenticate(user, password);
+
+            if (autenticar == "ok")
             {
-                
-                FrmAdmin admin = new FrmAdmin();
-                admin.ShowDialog();
-
-                
-
+                FrmAdmin login = new FrmAdmin();
+                login.Show();
             }
             else
             {
-
-                string checkUser = loginService.GetUser();
-                string checkPassword = loginService.Getpassword();
-                if(checkUser != null && user != checkUser )
-                {
-                    MetroMessageBox.Show(this,"Usuario Incorrecto", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
-                else if(checkPassword != null && password != checkPassword)
-                {
-                    MetroMessageBox.Show(this, "Contraseña incorrecta", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
-                else
-                {
-                    MetroMessageBox.Show(this, "Usuario y contraseña incorrecta", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-
-                }
-                   
+                MetroMessageBox.Show(this, autenticar, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+                //string checkUser = loginService.GetUser();
+                //string checkPassword = loginService.Getpassword();
+                //if(checkUser != null && user != checkUser )
+                //{
+                //    MetroMessageBox.Show(this,"Usuario Incorrecto", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                //}
+                //else if(checkPassword != null && password != checkPassword)
+                //{
+                //    MetroMessageBox.Show(this, "Contraseña incorrecta", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                //}
+                //else
+                //{
+                //    MetroMessageBox.Show(this, "Usuario y contraseña incorrecta", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+                //}
+                   
+            
         }
     }
 }

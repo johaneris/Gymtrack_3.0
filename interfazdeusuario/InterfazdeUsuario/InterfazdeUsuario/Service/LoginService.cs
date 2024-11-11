@@ -81,33 +81,46 @@ namespace InterfazdeUsuario.Service
 
         //auenticar
 
-        public bool Authenticate( string user, string password)
+        public string Authenticate( string user, string password)
         {
-            if(admin != null)
+            if(admin == null)
             {
-                if (admin.User == user && admin.Password == password)
-                {
-                    return true;
-                }
 
+                return "no se encontraron datos";
             }
-            return false;
-            //compara, es un bool pq solo retorna false o true
+
+            if (admin.User != user)
+            {
+                return "Su usuario es incorrecto";
+            }
+
+            if (admin.Password != password)
+            {
+                return "contraseña incorrecta";
+            }
+
+            if(admin.User != user && admin.Password != password)
+            {
+                return "usuario y contraseña incorrectos";
+            }
+
+            return "ok";
+            
             
 
         }
 
 
-        public string GetUser()
-        {
-            return admin != null ? admin.User : null;
-        }
+        //public string GetUser()
+        //{
+        //    return admin != null ? admin.User : null;
+        //}
 
-        public string Getpassword()
-        {
-            return admin != null ? admin.Password : null;
+        //public string Getpassword()
+        //{
+        //    return admin != null ? admin.Password : null;
 
-        }
+        //}
 
         public void UptadePassword(string newpassword)
         {
