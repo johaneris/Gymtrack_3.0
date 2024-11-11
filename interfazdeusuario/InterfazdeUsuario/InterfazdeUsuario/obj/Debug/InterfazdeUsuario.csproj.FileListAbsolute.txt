@@ -49,4 +49,4 @@ C:\Users\naole\OneDrive\GYMTRACK ALGP\interfazdeusuario\InterfazdeUsuario\Interf
 C:\Users\naole\OneDrive\GYMTRACK ALGP\interfazdeusuario\InterfazdeUsuario\InterfazdeUsuario\bin\Debug\MetroFramework.Design.dll
 C:\Users\naole\OneDrive\GYMTRACK ALGP\interfazdeusuario\InterfazdeUsuario\InterfazdeUsuario\bin\Debug\MetroFramework.dll
 C:\Users\naole\OneDrive\GYMTRACK ALGP\interfazdeusuario\InterfazdeUsuario\InterfazdeUsuario\bin\Debug\MetroFramework.Fonts.dll
-C:\Users\naole\OneDrive\GYMTRACK ALGP\interfazdeusuario\InterfazdeUsuario\InterfazdeUsuario\obj\Debug\InterfazdeUsuario.Formularios.AdminForm.resources
+C:\Users\naole\OneDrive\GYMTRACK ALGP\interfazdeusuario\InterfazdeUsuario\InterfazdeUsuario\obj\Debug\InterfazdeUsuario.Formularios.FrmLogin.resources

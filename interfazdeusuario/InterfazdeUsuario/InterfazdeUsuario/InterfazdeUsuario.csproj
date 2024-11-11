@@ -92,16 +92,23 @@
     <Compile Include="Formularios\AboutBox1.Designer.cs">
       <DependentUpon>AboutBox1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formularios\AdminForm.cs">
+    <Compile Include="Formularios\FrmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formularios\AdminForm.Designer.cs">
-      <DependentUpon>AdminForm.cs</DependentUpon>
+    <Compile Include="Formularios\FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
     </Compile>
-    <Compile Include="models\Administrador.cs" />
+    <Compile Include="Formularios\FrmAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmAdmin.Designer.cs">
+      <DependentUpon>FrmAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="models\Admin.cs" />
     <Compile Include="Service\consejos.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service\LoginService.cs" />
     <Compile Include="Service\MnualDeAyuda.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -109,8 +116,8 @@
     <EmbeddedResource Include="Formularios\AboutBox1.resx">
       <DependentUpon>AboutBox1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formularios\AdminForm.resx">
-      <DependentUpon>AdminForm.cs</DependentUpon>
+    <EmbeddedResource Include="Formularios\FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -142,7 +149,9 @@
   <ItemGroup>
     <None Include="Resources\uam-logo-E7ED465661-seeklogo.com.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2024-11-10 175550.png" />
+  </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.8">
       <Visible>False</Visible>

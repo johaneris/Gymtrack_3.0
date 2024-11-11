@@ -93,6 +93,16 @@ namespace InterfazdeUsuario.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Screenshot_2024_11_10_175550 {
+            get {
+                object obj = ResourceManager.GetObject("Screenshot_2024_11_10_175550", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap uam_logo_E7ED465661_seeklogo_com {
             get {
                 object obj = ResourceManager.GetObject("uam_logo_E7ED465661_seeklogo_com", resourceCulture);

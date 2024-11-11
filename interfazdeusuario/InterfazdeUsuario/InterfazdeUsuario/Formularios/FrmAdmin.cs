@@ -10,19 +10,11 @@ using System.Windows.Forms;
 
 namespace InterfazdeUsuario.Formularios
 {
-    public partial class AdminForm : MetroFramework.Forms.MetroForm
+    public partial class FrmAdmin : Form
     {
-
-        public AdminForm()
+        public FrmAdmin()
         {
             InitializeComponent();
-            
-        }
-
-        public void AparienciaForm()
-        {
-            this.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.Style = MetroFramework.MetroColorStyle.Default;
         }
     }
 }

@@ -71,14 +71,14 @@ namespace InterfazdeUsuario
 
         private void btnAdministrador_MouseHover(object sender, EventArgs e)
         {
-            btnAdministrador.BackColor = Color.LightGray;
+            btnAdmin.BackColor = Color.LightGray;
 
         }
 
         private void btnAdministrador_MouseLeave(object sender, EventArgs e)
         {
 
-            btnAdministrador.BackColor = Color.FromArgb(18, 27, 31);
+            btnAdmin.BackColor = Color.FromArgb(18, 27, 31);
 
         }
 
@@ -107,8 +107,8 @@ namespace InterfazdeUsuario
 
         private void btnAdministrador_Click(object sender, EventArgs e)
         {
-            AdminForm admin = new AdminForm();
-            admin.Show();
+            FrmLogin admin = new FrmLogin();
+            admin.ShowDialog();
         }
     }
 }
