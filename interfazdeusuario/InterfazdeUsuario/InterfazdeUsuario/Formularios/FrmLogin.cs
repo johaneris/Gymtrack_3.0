@@ -45,7 +45,9 @@ namespace InterfazdeUsuario.Formularios
             if (autenticar == "ok")
             {
                 FrmAdmin login = new FrmAdmin();
-                login.Show();
+                this.Hide();
+                login.ShowDialog();
+                
             }
             else
             {
