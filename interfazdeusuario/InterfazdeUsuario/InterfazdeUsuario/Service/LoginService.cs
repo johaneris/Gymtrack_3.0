@@ -122,15 +122,15 @@ namespace InterfazdeUsuario.Service
 
         //}
 
-        public void UptadePassword(string newpassword)
-        {
-            if (admin != null)
-            {
-                admin.Password = newpassword;
-                SaveData(admin.User, newpassword);
-            }
+        //public void UptadePassword(string newpassword)
+        //{
+        //    if (admin != null)
+        //    {
+        //        admin.Password = newpassword;
+        //        SaveData(admin.User, newpassword);
+        //    }
             
-        }
+        //}
 
     }
 }

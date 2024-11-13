@@ -49,6 +49,7 @@ C:\Users\naole\OneDrive\GYMTRACK ALGP\interfazdeusuario\InterfazdeUsuario\Interf
 C:\Users\naole\OneDrive\GYMTRACK ALGP\interfazdeusuario\InterfazdeUsuario\InterfazdeUsuario\bin\Debug\MetroFramework.dll
 C:\Users\naole\OneDrive\GYMTRACK ALGP\interfazdeusuario\InterfazdeUsuario\InterfazdeUsuario\bin\Debug\MetroFramework.Fonts.dll
 C:\Users\naole\OneDrive\GYMTRACK ALGP\interfazdeusuario\InterfazdeUsuario\InterfazdeUsuario\obj\Debug\InterfazdeUsuario.Formularios.FrmLogin.resources
+<<<<<<< HEAD
 C:\Users\naole\OneDrive\GYMTRACK ALGP\interfazdeusuario\InterfazdeUsuario\InterfazdeUsuario\bin\Debug\SqlServerTypes\x64\msvcr120.dll
 C:\Users\naole\OneDrive\GYMTRACK ALGP\interfazdeusuario\InterfazdeUsuario\InterfazdeUsuario\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
 C:\Users\naole\OneDrive\GYMTRACK ALGP\interfazdeusuario\InterfazdeUsuario\InterfazdeUsuario\bin\Debug\SqlServerTypes\x86\msvcr120.dll
@@ -102,3 +103,8 @@ C:\Users\naole\OneDrive\GYMTRACK ALGP\interfazdeusuario\InterfazdeUsuario\Interf
 C:\Users\naole\OneDrive\GYMTRACK ALGP\interfazdeusuario\InterfazdeUsuario\InterfazdeUsuario\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
 C:\Users\naole\OneDrive\GYMTRACK ALGP\interfazdeusuario\InterfazdeUsuario\InterfazdeUsuario\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
 C:\Users\naole\OneDrive\GYMTRACK ALGP\interfazdeusuario\InterfazdeUsuario\InterfazdeUsuario\obj\Debug\InterfazdeUsuario.FrmPrincipal.resources
+=======
+C:\Users\naole\OneDrive\GYMTRACK ALGP\interfazdeusuario\InterfazdeUsuario\InterfazdeUsuario\obj\Debug\InterfazdeUsuario.FrmPrincipal.resources
+C:\Users\naole\OneDrive\GYMTRACK ALGP\interfazdeusuario\InterfazdeUsuario\InterfazdeUsuario\obj\Debug\InterfazdeUsuario.Formularios.FrmAdmin.resources
+C:\Users\naole\OneDrive\GYMTRACK ALGP\interfazdeusuario\InterfazdeUsuario\InterfazdeUsuario\obj\Debug\InterfazdeUsuario.Formularios.FrmCambiarContra.resources
+>>>>>>> 1d826596c4091d120d52099f6cdfdcaec9c4a48c

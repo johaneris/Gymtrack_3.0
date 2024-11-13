@@ -98,9 +98,21 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Include="FrmPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
+=======
+    <Compile Include="Formularios\FrmCambiarContra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmCambiarContra.Designer.cs">
+      <DependentUpon>FrmCambiarContra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+>>>>>>> 1d826596c4091d120d52099f6cdfdcaec9c4a48c
     <Compile Include="FrmPrincipal.Designer.cs">
       <DependentUpon>FrmPrincipal.cs</DependentUpon>
     </Compile>
@@ -128,7 +140,16 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Service\LoginService.cs" />
     <Compile Include="Service\MnualDeAyuda.cs" />
+<<<<<<< HEAD
     <Compile Include="SqlServerTypes\Loader.cs" />
+=======
+    <EmbeddedResource Include="Formularios\FrmAdmin.resx">
+      <DependentUpon>FrmAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FrmCambiarContra.resx">
+      <DependentUpon>FrmCambiarContra.cs</DependentUpon>
+    </EmbeddedResource>
+>>>>>>> 1d826596c4091d120d52099f6cdfdcaec9c4a48c
     <EmbeddedResource Include="FrmPrincipal.resx">
       <DependentUpon>FrmPrincipal.cs</DependentUpon>
     </EmbeddedResource>
@@ -139,7 +160,7 @@
       <DependentUpon>FrmLogin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
+      <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>

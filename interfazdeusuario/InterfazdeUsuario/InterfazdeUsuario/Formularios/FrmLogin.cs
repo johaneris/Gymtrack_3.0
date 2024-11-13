@@ -21,10 +21,13 @@ namespace InterfazdeUsuario.Formularios
 
         LoginService loginService = new LoginService();
         Admin admin;
+        
 
         public FrmLogin()
         {
             InitializeComponent();
+            
+            
             
         }
 
@@ -70,6 +73,21 @@ namespace InterfazdeUsuario.Formularios
                 //}
                    
             
+        }
+
+        private void btnCancelar_Click(object sender, EventArgs e)
+        {
+            FrmPrincipal principal = new FrmPrincipal();
+            
+            this.Close();
+            principal.Show();
+            
+
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
         }
     }
 }
