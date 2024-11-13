@@ -42,15 +42,6 @@
             this.btnAdmin = new FontAwesome.Sharp.IconButton();
             this.btnMiembros = new FontAwesome.Sharp.IconButton();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-<<<<<<< HEAD
-            this.label1 = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.PanelEnmedio = new System.Windows.Forms.Panel();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.timerConsejos = new System.Windows.Forms.Timer(this.components);
-            this.iconButton1 = new FontAwesome.Sharp.IconButton();
-=======
->>>>>>> 1d826596c4091d120d52099f6cdfdcaec9c4a48c
             this.pnlMenu.SuspendLayout();
             this.panel1.SuspendLayout();
             this.PnlLogo.SuspendLayout();
@@ -61,7 +52,6 @@
             // pnlMenu
             // 
             this.pnlMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(27)))), ((int)(((byte)(31)))));
-            this.pnlMenu.Controls.Add(this.iconButton1);
             this.pnlMenu.Controls.Add(this.btnAbout);
             this.pnlMenu.Controls.Add(this.btnAyuda);
             this.pnlMenu.Controls.Add(this.btnAdmin);
@@ -136,30 +126,6 @@
             this.pictureBox3.TabIndex = 2;
             this.pictureBox3.TabStop = false;
             // 
-<<<<<<< HEAD
-            // iconButton1
-            // 
-            this.iconButton1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.iconButton1.FlatAppearance.BorderSize = 0;
-            this.iconButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton1.Font = new System.Drawing.Font("Consolas", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton1.ForeColor = System.Drawing.Color.White;
-            this.iconButton1.IconChar = FontAwesome.Sharp.IconChar.ExclamationTriangle;
-            this.iconButton1.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(152)))), ((int)(((byte)(143)))));
-            this.iconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton1.IconSize = 50;
-            this.iconButton1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton1.Location = new System.Drawing.Point(0, 681);
-            this.iconButton1.Name = "iconButton1";
-            this.iconButton1.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
-            this.iconButton1.Size = new System.Drawing.Size(344, 111);
-            this.iconButton1.TabIndex = 5;
-            this.iconButton1.Text = "Salir";
-            this.iconButton1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton1.UseVisualStyleBackColor = true;
-            // 
-            // Form1
-=======
             // btnAbout
             // 
             this.btnAbout.Dock = System.Windows.Forms.DockStyle.Top;
@@ -266,7 +232,6 @@
             this.pictureBox2.TabStop = false;
             // 
             // FrmPrincipal
->>>>>>> 1d826596c4091d120d52099f6cdfdcaec9c4a48c
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -305,7 +270,6 @@
         private System.Windows.Forms.Panel PnlLogo;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox3;
-        private FontAwesome.Sharp.IconButton iconButton1;
     }
 }
 

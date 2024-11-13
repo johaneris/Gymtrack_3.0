@@ -110,10 +110,6 @@ namespace InterfazdeUsuario
             FrmLogin admin = new FrmLogin();
             this.Hide();
             admin.ShowDialog();
-<<<<<<< HEAD
-
-=======
->>>>>>> 1d826596c4091d120d52099f6cdfdcaec9c4a48c
             
         }
     }

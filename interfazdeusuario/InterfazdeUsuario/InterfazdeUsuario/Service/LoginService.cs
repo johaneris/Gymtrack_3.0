@@ -88,10 +88,7 @@ namespace InterfazdeUsuario.Service
 
                 return "no se encontraron datos";
             }
-            if (admin.User != user && admin.Password != password)
-            {
-                return "usuario y contraseña incorrectos";
-            }
+
             if (admin.User != user)
             {
                 return "Su usuario es incorrecto";
@@ -102,7 +99,10 @@ namespace InterfazdeUsuario.Service
                 return "contraseña incorrecta";
             }
 
-            
+            if(admin.User != user && admin.Password != password)
+            {
+                return "usuario y contraseña incorrectos";
+            }
 
             return "ok";
             
