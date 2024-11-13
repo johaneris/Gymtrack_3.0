@@ -45,17 +45,20 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
             this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Location = new System.Drawing.Point(4, 33);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(15, 30);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(219, 298);
+            this.panel1.Size = new System.Drawing.Size(489, 241);
             this.panel1.TabIndex = 0;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::InterfazdeUsuario.Properties.Resources.x;
-            this.pictureBox1.Location = new System.Drawing.Point(-20, 25);
+            this.pictureBox1.Location = new System.Drawing.Point(-15, 20);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(248, 232);
+            this.pictureBox1.Size = new System.Drawing.Size(186, 188);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -68,9 +71,10 @@
             this.panel2.Controls.Add(this.btnLogin);
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.label1);
-            this.panel2.Location = new System.Drawing.Point(220, 33);
+            this.panel2.Location = new System.Drawing.Point(165, 27);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(475, 295);
+            this.panel2.Size = new System.Drawing.Size(356, 240);
             this.panel2.TabIndex = 1;
             // 
             // TbPassword
@@ -79,16 +83,18 @@
             // 
             // 
             this.TbPassword.CustomButton.Image = null;
-            this.TbPassword.CustomButton.Location = new System.Drawing.Point(265, 1);
+            this.TbPassword.CustomButton.Location = new System.Drawing.Point(197, 1);
+            this.TbPassword.CustomButton.Margin = new System.Windows.Forms.Padding(2);
             this.TbPassword.CustomButton.Name = "";
-            this.TbPassword.CustomButton.Size = new System.Drawing.Size(21, 21);
+            this.TbPassword.CustomButton.Size = new System.Drawing.Size(17, 17);
             this.TbPassword.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
             this.TbPassword.CustomButton.TabIndex = 1;
             this.TbPassword.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.TbPassword.CustomButton.UseSelectable = true;
             this.TbPassword.CustomButton.Visible = false;
             this.TbPassword.Lines = new string[0];
-            this.TbPassword.Location = new System.Drawing.Point(171, 134);
+            this.TbPassword.Location = new System.Drawing.Point(128, 109);
+            this.TbPassword.Margin = new System.Windows.Forms.Padding(2);
             this.TbPassword.MaxLength = 32767;
             this.TbPassword.Name = "TbPassword";
             this.TbPassword.PasswordChar = '*';
@@ -97,7 +103,7 @@
             this.TbPassword.SelectionLength = 0;
             this.TbPassword.SelectionStart = 0;
             this.TbPassword.ShortcutsEnabled = true;
-            this.TbPassword.Size = new System.Drawing.Size(287, 23);
+            this.TbPassword.Size = new System.Drawing.Size(215, 19);
             this.TbPassword.TabIndex = 4;
             this.TbPassword.UseSelectable = true;
             this.TbPassword.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
@@ -109,16 +115,18 @@
             // 
             // 
             this.tbUser.CustomButton.Image = null;
-            this.tbUser.CustomButton.Location = new System.Drawing.Point(265, 1);
+            this.tbUser.CustomButton.Location = new System.Drawing.Point(197, 1);
+            this.tbUser.CustomButton.Margin = new System.Windows.Forms.Padding(2);
             this.tbUser.CustomButton.Name = "";
-            this.tbUser.CustomButton.Size = new System.Drawing.Size(21, 21);
+            this.tbUser.CustomButton.Size = new System.Drawing.Size(17, 17);
             this.tbUser.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
             this.tbUser.CustomButton.TabIndex = 1;
             this.tbUser.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.tbUser.CustomButton.UseSelectable = true;
             this.tbUser.CustomButton.Visible = false;
             this.tbUser.Lines = new string[0];
-            this.tbUser.Location = new System.Drawing.Point(171, 80);
+            this.tbUser.Location = new System.Drawing.Point(128, 65);
+            this.tbUser.Margin = new System.Windows.Forms.Padding(2);
             this.tbUser.MaxLength = 32767;
             this.tbUser.Name = "tbUser";
             this.tbUser.PasswordChar = '\0';
@@ -127,7 +135,7 @@
             this.tbUser.SelectionLength = 0;
             this.tbUser.SelectionStart = 0;
             this.tbUser.ShortcutsEnabled = true;
-            this.tbUser.Size = new System.Drawing.Size(287, 23);
+            this.tbUser.Size = new System.Drawing.Size(215, 19);
             this.tbUser.TabIndex = 3;
             this.tbUser.UseSelectable = true;
             this.tbUser.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
@@ -143,10 +151,11 @@
             this.btnLogin.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(152)))), ((int)(((byte)(143)))));
             this.btnLogin.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnLogin.IconSize = 50;
-            this.btnLogin.Location = new System.Drawing.Point(0, 208);
+            this.btnLogin.Location = new System.Drawing.Point(0, 169);
+            this.btnLogin.Margin = new System.Windows.Forms.Padding(2);
             this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
-            this.btnLogin.Size = new System.Drawing.Size(469, 63);
+            this.btnLogin.Padding = new System.Windows.Forms.Padding(8, 0, 15, 0);
+            this.btnLogin.Size = new System.Drawing.Size(352, 51);
             this.btnLogin.TabIndex = 3;
             this.btnLogin.Text = "Iniciar Sesión";
             this.btnLogin.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -158,9 +167,10 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Consolas", 13.8F, System.Drawing.FontStyle.Bold);
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(18, 131);
+            this.label2.Location = new System.Drawing.Point(14, 106);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(155, 27);
+            this.label2.Size = new System.Drawing.Size(120, 22);
             this.label2.TabIndex = 1;
             this.label2.Text = "Contraseña:";
             // 
@@ -169,27 +179,29 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Consolas", 13.8F, System.Drawing.FontStyle.Bold);
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(18, 77);
+            this.label1.Location = new System.Drawing.Point(14, 62);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(116, 27);
+            this.label1.Size = new System.Drawing.Size(90, 22);
             this.label1.TabIndex = 0;
             this.label1.Text = "Usuario:";
             // 
             // FrmLogin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackImage = global::InterfazdeUsuario.Properties.Resources.Screenshot_2024_11_10_175550;
             this.BorderStyle = MetroFramework.Forms.MetroFormBorderStyle.FixedSingle;
-            this.ClientSize = new System.Drawing.Size(692, 327);
+            this.ClientSize = new System.Drawing.Size(519, 266);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.DisplayHeader = false;
             this.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FrmLogin";
-            this.Padding = new System.Windows.Forms.Padding(20, 30, 20, 20);
+            this.Padding = new System.Windows.Forms.Padding(15, 30, 15, 16);
             this.ShadowType = MetroFramework.Forms.MetroFormShadowType.DropShadow;
             this.Text = "AdminForm";
             this.Theme = MetroFramework.MetroThemeStyle.Dark;

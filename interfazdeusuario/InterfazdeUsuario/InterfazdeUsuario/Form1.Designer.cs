@@ -30,25 +30,25 @@
         {
             this.components = new System.ComponentModel.Container();
             this.pnlMenu = new System.Windows.Forms.Panel();
+            this.PnlLogo = new System.Windows.Forms.Panel();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.PanelEnmedio = new System.Windows.Forms.Panel();
+            this.timerConsejos = new System.Windows.Forms.Timer(this.components);
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.btnAbout = new FontAwesome.Sharp.IconButton();
             this.btnAyuda = new FontAwesome.Sharp.IconButton();
             this.btnAdmin = new FontAwesome.Sharp.IconButton();
             this.btnMiembros = new FontAwesome.Sharp.IconButton();
-            this.PnlLogo = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.PanelEnmedio = new System.Windows.Forms.Panel();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.timerConsejos = new System.Windows.Forms.Timer(this.components);
             this.pnlMenu.SuspendLayout();
             this.PnlLogo.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.PanelEnmedio.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
@@ -67,6 +67,68 @@
             this.pnlMenu.Name = "pnlMenu";
             this.pnlMenu.Size = new System.Drawing.Size(344, 1055);
             this.pnlMenu.TabIndex = 3;
+            // 
+            // PnlLogo
+            // 
+            this.PnlLogo.Controls.Add(this.pictureBox1);
+            this.PnlLogo.Dock = System.Windows.Forms.DockStyle.Top;
+            this.PnlLogo.Location = new System.Drawing.Point(0, 0);
+            this.PnlLogo.Margin = new System.Windows.Forms.Padding(2);
+            this.PnlLogo.Name = "PnlLogo";
+            this.PnlLogo.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
+            this.PnlLogo.Size = new System.Drawing.Size(344, 237);
+            this.PnlLogo.TabIndex = 0;
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(51)))), ((int)(((byte)(59)))));
+            this.panel1.Controls.Add(this.pictureBox2);
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(344, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1571, 80);
+            this.panel1.TabIndex = 4;
+            // 
+            // label1
+            // 
+            this.label1.Font = new System.Drawing.Font("Consolas", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(258, 7);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(1286, 70);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Bienvenido a GymTrack - Lleva tu entrenamiento al siguiente nivel";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.Location = new System.Drawing.Point(344, 80);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1571, 10);
+            this.panel2.TabIndex = 5;
+            // 
+            // PanelEnmedio
+            // 
+            this.PanelEnmedio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(51)))), ((int)(((byte)(59)))));
+            this.PanelEnmedio.Controls.Add(this.pictureBox3);
+            this.PanelEnmedio.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.PanelEnmedio.Location = new System.Drawing.Point(0, 0);
+            this.PanelEnmedio.Name = "PanelEnmedio";
+            this.PanelEnmedio.Size = new System.Drawing.Size(1915, 1055);
+            this.PanelEnmedio.TabIndex = 6;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::InterfazdeUsuario.Properties.Resources.logo_uam_2;
+            this.pictureBox2.Location = new System.Drawing.Point(0, 7);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(201, 70);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
             // 
             // btnAbout
             // 
@@ -160,19 +222,9 @@
             this.btnMiembros.Text = "Miembros";
             this.btnMiembros.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnMiembros.UseVisualStyleBackColor = true;
+            this.btnMiembros.Click += new System.EventHandler(this.btnMiembros_Click);
             this.btnMiembros.MouseLeave += new System.EventHandler(this.btnMiembros_MouseLeave);
             this.btnMiembros.MouseHover += new System.EventHandler(this.btnMiembros_MouseHover);
-            // 
-            // PnlLogo
-            // 
-            this.PnlLogo.Controls.Add(this.pictureBox1);
-            this.PnlLogo.Dock = System.Windows.Forms.DockStyle.Top;
-            this.PnlLogo.Location = new System.Drawing.Point(0, 0);
-            this.PnlLogo.Margin = new System.Windows.Forms.Padding(2);
-            this.PnlLogo.Name = "PnlLogo";
-            this.PnlLogo.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
-            this.PnlLogo.Size = new System.Drawing.Size(344, 237);
-            this.PnlLogo.TabIndex = 0;
             // 
             // pictureBox1
             // 
@@ -183,57 +235,6 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(51)))), ((int)(((byte)(59)))));
-            this.panel1.Controls.Add(this.pictureBox2);
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(344, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1571, 80);
-            this.panel1.TabIndex = 4;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::InterfazdeUsuario.Properties.Resources.logo_uam_2;
-            this.pictureBox2.Location = new System.Drawing.Point(0, 7);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(201, 70);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
-            // 
-            // label1
-            // 
-            this.label1.Font = new System.Drawing.Font("Consolas", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(258, 7);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(1286, 70);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Bienvenido a GymTrack - Lleva tu entrenamiento al siguiente nivel";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(344, 80);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1571, 10);
-            this.panel2.TabIndex = 5;
-            // 
-            // PanelEnmedio
-            // 
-            this.PanelEnmedio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(51)))), ((int)(((byte)(59)))));
-            this.PanelEnmedio.Controls.Add(this.pictureBox3);
-            this.PanelEnmedio.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.PanelEnmedio.Location = new System.Drawing.Point(0, 0);
-            this.PanelEnmedio.Name = "PanelEnmedio";
-            this.PanelEnmedio.Size = new System.Drawing.Size(1915, 1055);
-            this.PanelEnmedio.TabIndex = 6;
             // 
             // pictureBox3
             // 
@@ -247,7 +248,7 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 23F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1915, 1055);
@@ -263,10 +264,10 @@
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.pnlMenu.ResumeLayout(false);
             this.PnlLogo.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.PanelEnmedio.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
 

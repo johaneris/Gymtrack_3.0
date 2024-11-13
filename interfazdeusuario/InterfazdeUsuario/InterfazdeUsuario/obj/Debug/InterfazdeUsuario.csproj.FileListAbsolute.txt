@@ -50,3 +50,26 @@ C:\Users\naole\OneDrive\GYMTRACK ALGP\interfazdeusuario\InterfazdeUsuario\Interf
 C:\Users\naole\OneDrive\GYMTRACK ALGP\interfazdeusuario\InterfazdeUsuario\InterfazdeUsuario\bin\Debug\MetroFramework.dll
 C:\Users\naole\OneDrive\GYMTRACK ALGP\interfazdeusuario\InterfazdeUsuario\InterfazdeUsuario\bin\Debug\MetroFramework.Fonts.dll
 C:\Users\naole\OneDrive\GYMTRACK ALGP\interfazdeusuario\InterfazdeUsuario\InterfazdeUsuario\obj\Debug\InterfazdeUsuario.Formularios.FrmLogin.resources
+C:\Users\gabri\OneDrive\Documentos\GymtrackClone\Gymtrack_3.0\interfazdeusuario\InterfazdeUsuario\InterfazdeUsuario\bin\Debug\InterfazdeUsuario.exe.config
+C:\Users\gabri\OneDrive\Documentos\GymtrackClone\Gymtrack_3.0\interfazdeusuario\InterfazdeUsuario\InterfazdeUsuario\bin\Debug\InterfazdeUsuario.exe
+C:\Users\gabri\OneDrive\Documentos\GymtrackClone\Gymtrack_3.0\interfazdeusuario\InterfazdeUsuario\InterfazdeUsuario\bin\Debug\InterfazdeUsuario.pdb
+C:\Users\gabri\OneDrive\Documentos\GymtrackClone\Gymtrack_3.0\interfazdeusuario\InterfazdeUsuario\InterfazdeUsuario\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\gabri\OneDrive\Documentos\GymtrackClone\Gymtrack_3.0\interfazdeusuario\InterfazdeUsuario\InterfazdeUsuario\bin\Debug\MetroFramework.Design.dll
+C:\Users\gabri\OneDrive\Documentos\GymtrackClone\Gymtrack_3.0\interfazdeusuario\InterfazdeUsuario\InterfazdeUsuario\bin\Debug\MetroFramework.dll
+C:\Users\gabri\OneDrive\Documentos\GymtrackClone\Gymtrack_3.0\interfazdeusuario\InterfazdeUsuario\InterfazdeUsuario\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\gabri\OneDrive\Documentos\GymtrackClone\Gymtrack_3.0\interfazdeusuario\InterfazdeUsuario\InterfazdeUsuario\bin\Debug\Spire.Pdf.dll
+C:\Users\gabri\OneDrive\Documentos\GymtrackClone\Gymtrack_3.0\interfazdeusuario\InterfazdeUsuario\InterfazdeUsuario\bin\Debug\Microsoft.mshtml.dll
+C:\Users\gabri\OneDrive\Documentos\GymtrackClone\Gymtrack_3.0\interfazdeusuario\InterfazdeUsuario\InterfazdeUsuario\bin\Debug\Spire.Pdf.xml
+C:\Users\gabri\OneDrive\Documentos\GymtrackClone\Gymtrack_3.0\interfazdeusuario\InterfazdeUsuario\InterfazdeUsuario\obj\Debug\InterfazdeUsuario.csproj.AssemblyReference.cache
+C:\Users\gabri\OneDrive\Documentos\GymtrackClone\Gymtrack_3.0\interfazdeusuario\InterfazdeUsuario\InterfazdeUsuario\obj\Debug\InterfazdeUsuario.Form1.resources
+C:\Users\gabri\OneDrive\Documentos\GymtrackClone\Gymtrack_3.0\interfazdeusuario\InterfazdeUsuario\InterfazdeUsuario\obj\Debug\InterfazdeUsuario.Formularios.FrmAbout.resources
+C:\Users\gabri\OneDrive\Documentos\GymtrackClone\Gymtrack_3.0\interfazdeusuario\InterfazdeUsuario\InterfazdeUsuario\obj\Debug\InterfazdeUsuario.Formularios.Miembros.resources
+C:\Users\gabri\OneDrive\Documentos\GymtrackClone\Gymtrack_3.0\interfazdeusuario\InterfazdeUsuario\InterfazdeUsuario\obj\Debug\InterfazdeUsuario.Formularios.FrmLogin.resources
+C:\Users\gabri\OneDrive\Documentos\GymtrackClone\Gymtrack_3.0\interfazdeusuario\InterfazdeUsuario\InterfazdeUsuario\obj\Debug\InterfazdeUsuario.Formularios.RegisterExternal.resources
+C:\Users\gabri\OneDrive\Documentos\GymtrackClone\Gymtrack_3.0\interfazdeusuario\InterfazdeUsuario\InterfazdeUsuario\obj\Debug\InterfazdeUsuario.Formularios.RegisterStudent.resources
+C:\Users\gabri\OneDrive\Documentos\GymtrackClone\Gymtrack_3.0\interfazdeusuario\InterfazdeUsuario\InterfazdeUsuario\obj\Debug\InterfazdeUsuario.Properties.Resources.resources
+C:\Users\gabri\OneDrive\Documentos\GymtrackClone\Gymtrack_3.0\interfazdeusuario\InterfazdeUsuario\InterfazdeUsuario\obj\Debug\InterfazdeUsuario.csproj.GenerateResource.cache
+C:\Users\gabri\OneDrive\Documentos\GymtrackClone\Gymtrack_3.0\interfazdeusuario\InterfazdeUsuario\InterfazdeUsuario\obj\Debug\InterfazdeUsuario.csproj.CoreCompileInputs.cache
+C:\Users\gabri\OneDrive\Documentos\GymtrackClone\Gymtrack_3.0\interfazdeusuario\InterfazdeUsuario\InterfazdeUsuario\obj\Debug\Interfaz.F20A7EEA.Up2Date
+C:\Users\gabri\OneDrive\Documentos\GymtrackClone\Gymtrack_3.0\interfazdeusuario\InterfazdeUsuario\InterfazdeUsuario\obj\Debug\InterfazdeUsuario.exe
+C:\Users\gabri\OneDrive\Documentos\GymtrackClone\Gymtrack_3.0\interfazdeusuario\InterfazdeUsuario\InterfazdeUsuario\obj\Debug\InterfazdeUsuario.pdb

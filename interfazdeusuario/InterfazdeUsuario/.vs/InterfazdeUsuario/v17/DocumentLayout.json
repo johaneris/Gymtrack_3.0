@@ -1,34 +1,74 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\naole\\OneDrive\\GYMTRACK ALGP\\interfazdeusuario\\InterfazdeUsuario\\",
+  "WorkspaceRootPath": "C:\\Users\\gabri\\OneDrive\\Documentos\\GymtrackClone\\Gymtrack_3.0\\interfazdeusuario\\InterfazdeUsuario\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8BB5133A-C661-4AF5-B56D-C84EA50C2E38}|InterfazdeUsuario\\InterfazdeUsuario.csproj|c:\\users\\naole\\onedrive\\gymtrack algp\\interfazdeusuario\\interfazdeusuario\\interfazdeusuario\\formularios\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{8BB5133A-C661-4AF5-B56D-C84EA50C2E38}|InterfazdeUsuario\\InterfazdeUsuario.csproj|c:\\users\\gabri\\onedrive\\documentos\\gymtrackclone\\gymtrack_3.0\\interfazdeusuario\\interfazdeusuario\\interfazdeusuario\\formularios\\miembros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8BB5133A-C661-4AF5-B56D-C84EA50C2E38}|InterfazdeUsuario\\InterfazdeUsuario.csproj|solutionrelative:interfazdeusuario\\formularios\\miembros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BB5133A-C661-4AF5-B56D-C84EA50C2E38}|InterfazdeUsuario\\InterfazdeUsuario.csproj|C:\\Users\\gabri\\OneDrive\\Documentos\\GymtrackClone\\Gymtrack_3.0\\interfazdeusuario\\InterfazdeUsuario\\interfazdeusuario\\formularios\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{8BB5133A-C661-4AF5-B56D-C84EA50C2E38}|InterfazdeUsuario\\InterfazdeUsuario.csproj|solutionrelative:interfazdeusuario\\formularios\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8BB5133A-C661-4AF5-B56D-C84EA50C2E38}|InterfazdeUsuario\\InterfazdeUsuario.csproj|C:\\Users\\naole\\OneDrive\\GYMTRACK ALGP\\interfazdeusuario\\InterfazdeUsuario\\interfazdeusuario\\formularios\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8BB5133A-C661-4AF5-B56D-C84EA50C2E38}|InterfazdeUsuario\\InterfazdeUsuario.csproj|solutionrelative:interfazdeusuario\\formularios\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8BB5133A-C661-4AF5-B56D-C84EA50C2E38}|InterfazdeUsuario\\InterfazdeUsuario.csproj|C:\\Users\\naole\\OneDrive\\GYMTRACK ALGP\\interfazdeusuario\\InterfazdeUsuario\\interfazdeusuario\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8BB5133A-C661-4AF5-B56D-C84EA50C2E38}|InterfazdeUsuario\\InterfazdeUsuario.csproj|solutionrelative:interfazdeusuario\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8BB5133A-C661-4AF5-B56D-C84EA50C2E38}|InterfazdeUsuario\\InterfazdeUsuario.csproj|C:\\Users\\naole\\OneDrive\\GYMTRACK ALGP\\interfazdeusuario\\InterfazdeUsuario\\interfazdeusuario\\service\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8BB5133A-C661-4AF5-B56D-C84EA50C2E38}|InterfazdeUsuario\\InterfazdeUsuario.csproj|C:\\Users\\gabri\\OneDrive\\Documentos\\GymtrackClone\\Gymtrack_3.0\\interfazdeusuario\\InterfazdeUsuario\\interfazdeusuario\\service\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8BB5133A-C661-4AF5-B56D-C84EA50C2E38}|InterfazdeUsuario\\InterfazdeUsuario.csproj|solutionrelative:interfazdeusuario\\service\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8BB5133A-C661-4AF5-B56D-C84EA50C2E38}|InterfazdeUsuario\\InterfazdeUsuario.csproj|C:\\Users\\naole\\OneDrive\\GYMTRACK ALGP\\interfazdeusuario\\InterfazdeUsuario\\interfazdeusuario\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8BB5133A-C661-4AF5-B56D-C84EA50C2E38}|InterfazdeUsuario\\InterfazdeUsuario.csproj|C:\\Users\\gabri\\OneDrive\\Documentos\\GymtrackClone\\Gymtrack_3.0\\interfazdeusuario\\InterfazdeUsuario\\interfazdeusuario\\formularios\\registerexternal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8BB5133A-C661-4AF5-B56D-C84EA50C2E38}|InterfazdeUsuario\\InterfazdeUsuario.csproj|solutionrelative:interfazdeusuario\\formularios\\registerexternal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BB5133A-C661-4AF5-B56D-C84EA50C2E38}|InterfazdeUsuario\\InterfazdeUsuario.csproj|C:\\Users\\gabri\\OneDrive\\Documentos\\GymtrackClone\\Gymtrack_3.0\\interfazdeusuario\\InterfazdeUsuario\\interfazdeusuario\\service\\consejos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BB5133A-C661-4AF5-B56D-C84EA50C2E38}|InterfazdeUsuario\\InterfazdeUsuario.csproj|solutionrelative:interfazdeusuario\\service\\consejos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BB5133A-C661-4AF5-B56D-C84EA50C2E38}|InterfazdeUsuario\\InterfazdeUsuario.csproj|C:\\Users\\gabri\\OneDrive\\Documentos\\GymtrackClone\\Gymtrack_3.0\\interfazdeusuario\\InterfazdeUsuario\\interfazdeusuario\\service\\mnualdeayuda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BB5133A-C661-4AF5-B56D-C84EA50C2E38}|InterfazdeUsuario\\InterfazdeUsuario.csproj|solutionrelative:interfazdeusuario\\service\\mnualdeayuda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BB5133A-C661-4AF5-B56D-C84EA50C2E38}|InterfazdeUsuario\\InterfazdeUsuario.csproj|C:\\Users\\gabri\\OneDrive\\Documentos\\GymtrackClone\\Gymtrack_3.0\\interfazdeusuario\\InterfazdeUsuario\\interfazdeusuario\\formularios\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BB5133A-C661-4AF5-B56D-C84EA50C2E38}|InterfazdeUsuario\\InterfazdeUsuario.csproj|solutionrelative:interfazdeusuario\\formularios\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BB5133A-C661-4AF5-B56D-C84EA50C2E38}|InterfazdeUsuario\\InterfazdeUsuario.csproj|C:\\Users\\gabri\\OneDrive\\Documentos\\GymtrackClone\\Gymtrack_3.0\\interfazdeusuario\\InterfazdeUsuario\\interfazdeusuario\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BB5133A-C661-4AF5-B56D-C84EA50C2E38}|InterfazdeUsuario\\InterfazdeUsuario.csproj|solutionrelative:interfazdeusuario\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BB5133A-C661-4AF5-B56D-C84EA50C2E38}|InterfazdeUsuario\\InterfazdeUsuario.csproj|C:\\Users\\gabri\\OneDrive\\Documentos\\GymtrackClone\\Gymtrack_3.0\\interfazdeusuario\\InterfazdeUsuario\\interfazdeusuario\\models\\external.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BB5133A-C661-4AF5-B56D-C84EA50C2E38}|InterfazdeUsuario\\InterfazdeUsuario.csproj|solutionrelative:interfazdeusuario\\models\\external.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BB5133A-C661-4AF5-B56D-C84EA50C2E38}|InterfazdeUsuario\\InterfazdeUsuario.csproj|C:\\Users\\gabri\\OneDrive\\Documentos\\GymtrackClone\\Gymtrack_3.0\\interfazdeusuario\\InterfazdeUsuario\\interfazdeusuario\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8BB5133A-C661-4AF5-B56D-C84EA50C2E38}|InterfazdeUsuario\\InterfazdeUsuario.csproj|solutionrelative:interfazdeusuario\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8BB5133A-C661-4AF5-B56D-C84EA50C2E38}|InterfazdeUsuario\\InterfazdeUsuario.csproj|C:\\Users\\naole\\OneDrive\\GYMTRACK ALGP\\interfazdeusuario\\InterfazdeUsuario\\interfazdeusuario\\formularios\\frmadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8BB5133A-C661-4AF5-B56D-C84EA50C2E38}|InterfazdeUsuario\\InterfazdeUsuario.csproj|solutionrelative:interfazdeusuario\\formularios\\frmadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{8BB5133A-C661-4AF5-B56D-C84EA50C2E38}|InterfazdeUsuario\\InterfazdeUsuario.csproj|C:\\Users\\gabri\\OneDrive\\Documentos\\GymtrackClone\\Gymtrack_3.0\\interfazdeusuario\\InterfazdeUsuario\\interfazdeusuario\\formularios\\registerstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8BB5133A-C661-4AF5-B56D-C84EA50C2E38}|InterfazdeUsuario\\InterfazdeUsuario.csproj|solutionrelative:interfazdeusuario\\formularios\\registerstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8BB5133A-C661-4AF5-B56D-C84EA50C2E38}|InterfazdeUsuario\\InterfazdeUsuario.csproj|C:\\Users\\naole\\OneDrive\\GYMTRACK ALGP\\interfazdeusuario\\InterfazdeUsuario\\interfazdeusuario\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8BB5133A-C661-4AF5-B56D-C84EA50C2E38}|InterfazdeUsuario\\InterfazdeUsuario.csproj|C:\\Users\\gabri\\OneDrive\\Documentos\\GymtrackClone\\Gymtrack_3.0\\interfazdeusuario\\InterfazdeUsuario\\interfazdeusuario\\formularios\\registerstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BB5133A-C661-4AF5-B56D-C84EA50C2E38}|InterfazdeUsuario\\InterfazdeUsuario.csproj|solutionrelative:interfazdeusuario\\formularios\\registerstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BB5133A-C661-4AF5-B56D-C84EA50C2E38}|InterfazdeUsuario\\InterfazdeUsuario.csproj|C:\\Users\\gabri\\OneDrive\\Documentos\\GymtrackClone\\Gymtrack_3.0\\interfazdeusuario\\InterfazdeUsuario\\interfazdeusuario\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8BB5133A-C661-4AF5-B56D-C84EA50C2E38}|InterfazdeUsuario\\InterfazdeUsuario.csproj|solutionrelative:interfazdeusuario\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BB5133A-C661-4AF5-B56D-C84EA50C2E38}|InterfazdeUsuario\\InterfazdeUsuario.csproj|C:\\Users\\gabri\\OneDrive\\Documentos\\GymtrackClone\\Gymtrack_3.0\\interfazdeusuario\\InterfazdeUsuario\\interfazdeusuario\\formularios\\miembros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BB5133A-C661-4AF5-B56D-C84EA50C2E38}|InterfazdeUsuario\\InterfazdeUsuario.csproj|solutionrelative:interfazdeusuario\\formularios\\miembros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BB5133A-C661-4AF5-B56D-C84EA50C2E38}|InterfazdeUsuario\\InterfazdeUsuario.csproj|C:\\Users\\gabri\\OneDrive\\Documentos\\GymtrackClone\\Gymtrack_3.0\\interfazdeusuario\\InterfazdeUsuario\\interfazdeusuario\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8BB5133A-C661-4AF5-B56D-C84EA50C2E38}|InterfazdeUsuario\\InterfazdeUsuario.csproj|solutionrelative:interfazdeusuario\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BB5133A-C661-4AF5-B56D-C84EA50C2E38}|InterfazdeUsuario\\InterfazdeUsuario.csproj|C:\\Users\\gabri\\OneDrive\\Documentos\\GymtrackClone\\Gymtrack_3.0\\interfazdeusuario\\InterfazdeUsuario\\interfazdeusuario\\formularios\\aboutbox1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8BB5133A-C661-4AF5-B56D-C84EA50C2E38}|InterfazdeUsuario\\InterfazdeUsuario.csproj|solutionrelative:interfazdeusuario\\formularios\\aboutbox1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BB5133A-C661-4AF5-B56D-C84EA50C2E38}|InterfazdeUsuario\\InterfazdeUsuario.csproj|C:\\Users\\gabri\\OneDrive\\Documentos\\GymtrackClone\\Gymtrack_3.0\\interfazdeusuario\\InterfazdeUsuario\\interfazdeusuario\\formularios\\frmadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8BB5133A-C661-4AF5-B56D-C84EA50C2E38}|InterfazdeUsuario\\InterfazdeUsuario.csproj|solutionrelative:interfazdeusuario\\formularios\\frmadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,67 +78,59 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 8,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\Documentos\\GymtrackClone\\Gymtrack_3.0\\interfazdeusuario\\InterfazdeUsuario\\InterfazdeUsuario\\Form1.cs",
+              "RelativeDocumentMoniker": "InterfazdeUsuario\\Form1.cs",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\Documentos\\GymtrackClone\\Gymtrack_3.0\\interfazdeusuario\\InterfazdeUsuario\\InterfazdeUsuario\\Form1.cs [Design]",
+              "RelativeToolTip": "InterfazdeUsuario\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T14:40:12.617Z",
+              "IsPinned": true
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Admin.cs",
-              "DocumentMoniker": "C:\\Users\\naole\\OneDrive\\GYMTRACK ALGP\\interfazdeusuario\\InterfazdeUsuario\\InterfazdeUsuario\\models\\Admin.cs",
-              "RelativeDocumentMoniker": "InterfazdeUsuario\\models\\Admin.cs",
-              "ToolTip": "C:\\Users\\naole\\OneDrive\\GYMTRACK ALGP\\interfazdeusuario\\InterfazdeUsuario\\InterfazdeUsuario\\models\\Admin.cs",
-              "RelativeToolTip": "InterfazdeUsuario\\models\\Admin.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "MnualDeAyuda.cs",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\Documentos\\GymtrackClone\\Gymtrack_3.0\\interfazdeusuario\\InterfazdeUsuario\\InterfazdeUsuario\\Service\\MnualDeAyuda.cs",
+              "RelativeDocumentMoniker": "InterfazdeUsuario\\Service\\MnualDeAyuda.cs",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\Documentos\\GymtrackClone\\Gymtrack_3.0\\interfazdeusuario\\InterfazdeUsuario\\InterfazdeUsuario\\Service\\MnualDeAyuda.cs",
+              "RelativeToolTip": "InterfazdeUsuario\\Service\\MnualDeAyuda.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAgwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T02:27:30.724Z"
+              "WhenOpened": "2024-11-12T16:05:03.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\Documentos\\GymtrackClone\\Gymtrack_3.0\\interfazdeusuario\\InterfazdeUsuario\\InterfazdeUsuario\\models\\Student.cs",
+              "RelativeDocumentMoniker": "InterfazdeUsuario\\models\\Student.cs",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\Documentos\\GymtrackClone\\Gymtrack_3.0\\interfazdeusuario\\InterfazdeUsuario\\InterfazdeUsuario\\models\\Student.cs",
+              "RelativeToolTip": "InterfazdeUsuario\\models\\Student.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T15:54:39.963Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "FrmLogin.cs",
-              "DocumentMoniker": "C:\\Users\\naole\\OneDrive\\GYMTRACK ALGP\\interfazdeusuario\\InterfazdeUsuario\\InterfazdeUsuario\\Formularios\\FrmLogin.cs",
-              "RelativeDocumentMoniker": "InterfazdeUsuario\\Formularios\\FrmLogin.cs",
-              "ToolTip": "C:\\Users\\naole\\OneDrive\\GYMTRACK ALGP\\interfazdeusuario\\InterfazdeUsuario\\InterfazdeUsuario\\Formularios\\FrmLogin.cs",
-              "RelativeToolTip": "InterfazdeUsuario\\Formularios\\FrmLogin.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAQwDMAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T01:40:44.158Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\naole\\OneDrive\\GYMTRACK ALGP\\interfazdeusuario\\InterfazdeUsuario\\InterfazdeUsuario\\Form1.cs",
-              "RelativeDocumentMoniker": "InterfazdeUsuario\\Form1.cs",
-              "ToolTip": "C:\\Users\\naole\\OneDrive\\GYMTRACK ALGP\\interfazdeusuario\\InterfazdeUsuario\\InterfazdeUsuario\\Form1.cs [Design]",
-              "RelativeToolTip": "InterfazdeUsuario\\Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T14:40:12.617Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LoginService.cs",
-              "DocumentMoniker": "C:\\Users\\naole\\OneDrive\\GYMTRACK ALGP\\interfazdeusuario\\InterfazdeUsuario\\InterfazdeUsuario\\Service\\LoginService.cs",
-              "RelativeDocumentMoniker": "InterfazdeUsuario\\Service\\LoginService.cs",
-              "ToolTip": "C:\\Users\\naole\\OneDrive\\GYMTRACK ALGP\\interfazdeusuario\\InterfazdeUsuario\\InterfazdeUsuario\\Service\\LoginService.cs",
-              "RelativeToolTip": "InterfazdeUsuario\\Service\\LoginService.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAgwGcAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T02:23:00.029Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "FrmLogin.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\naole\\OneDrive\\GYMTRACK ALGP\\interfazdeusuario\\InterfazdeUsuario\\InterfazdeUsuario\\Formularios\\FrmLogin.cs",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\Documentos\\GymtrackClone\\Gymtrack_3.0\\interfazdeusuario\\InterfazdeUsuario\\InterfazdeUsuario\\Formularios\\FrmLogin.cs",
               "RelativeDocumentMoniker": "InterfazdeUsuario\\Formularios\\FrmLogin.cs",
-              "ToolTip": "C:\\Users\\naole\\OneDrive\\GYMTRACK ALGP\\interfazdeusuario\\InterfazdeUsuario\\InterfazdeUsuario\\Formularios\\FrmLogin.cs [Design]",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\Documentos\\GymtrackClone\\Gymtrack_3.0\\interfazdeusuario\\InterfazdeUsuario\\InterfazdeUsuario\\Formularios\\FrmLogin.cs [Design]",
               "RelativeToolTip": "InterfazdeUsuario\\Formularios\\FrmLogin.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-10T01:38:41.66Z",
@@ -106,23 +138,155 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\naole\\OneDrive\\GYMTRACK ALGP\\interfazdeusuario\\InterfazdeUsuario\\InterfazdeUsuario\\Form1.cs",
-              "RelativeDocumentMoniker": "InterfazdeUsuario\\Form1.cs",
-              "ToolTip": "C:\\Users\\naole\\OneDrive\\GYMTRACK ALGP\\interfazdeusuario\\InterfazdeUsuario\\InterfazdeUsuario\\Form1.cs",
-              "RelativeToolTip": "InterfazdeUsuario\\Form1.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAHIAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "LoginService.cs",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\Documentos\\GymtrackClone\\Gymtrack_3.0\\interfazdeusuario\\InterfazdeUsuario\\InterfazdeUsuario\\Service\\LoginService.cs",
+              "RelativeDocumentMoniker": "InterfazdeUsuario\\Service\\LoginService.cs",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\Documentos\\GymtrackClone\\Gymtrack_3.0\\interfazdeusuario\\InterfazdeUsuario\\InterfazdeUsuario\\Service\\LoginService.cs",
+              "RelativeToolTip": "InterfazdeUsuario\\Service\\LoginService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T01:48:23.408Z"
+              "WhenOpened": "2024-11-11T02:23:00.029Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
+              "Title": "RegisterExternal.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\Documentos\\GymtrackClone\\Gymtrack_3.0\\interfazdeusuario\\InterfazdeUsuario\\InterfazdeUsuario\\Formularios\\RegisterExternal.cs",
+              "RelativeDocumentMoniker": "InterfazdeUsuario\\Formularios\\RegisterExternal.cs",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\Documentos\\GymtrackClone\\Gymtrack_3.0\\interfazdeusuario\\InterfazdeUsuario\\InterfazdeUsuario\\Formularios\\RegisterExternal.cs [Design]",
+              "RelativeToolTip": "InterfazdeUsuario\\Formularios\\RegisterExternal.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T15:03:30.032Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Miembros.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\Documentos\\GymtrackClone\\Gymtrack_3.0\\interfazdeusuario\\InterfazdeUsuario\\InterfazdeUsuario\\Formularios\\Miembros.cs",
+              "RelativeDocumentMoniker": "InterfazdeUsuario\\Formularios\\Miembros.cs",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\Documentos\\GymtrackClone\\Gymtrack_3.0\\interfazdeusuario\\InterfazdeUsuario\\InterfazdeUsuario\\Formularios\\Miembros.cs [Design]",
+              "RelativeToolTip": "InterfazdeUsuario\\Formularios\\Miembros.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T15:28:22.582Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "consejos.cs",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\Documentos\\GymtrackClone\\Gymtrack_3.0\\interfazdeusuario\\InterfazdeUsuario\\InterfazdeUsuario\\Service\\consejos.cs",
+              "RelativeDocumentMoniker": "InterfazdeUsuario\\Service\\consejos.cs",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\Documentos\\GymtrackClone\\Gymtrack_3.0\\interfazdeusuario\\InterfazdeUsuario\\InterfazdeUsuario\\Service\\consejos.cs",
+              "RelativeToolTip": "InterfazdeUsuario\\Service\\consejos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T16:05:09.857Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "External.cs",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\Documentos\\GymtrackClone\\Gymtrack_3.0\\interfazdeusuario\\InterfazdeUsuario\\InterfazdeUsuario\\models\\External.cs",
+              "RelativeDocumentMoniker": "InterfazdeUsuario\\models\\External.cs",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\Documentos\\GymtrackClone\\Gymtrack_3.0\\interfazdeusuario\\InterfazdeUsuario\\InterfazdeUsuario\\models\\External.cs",
+              "RelativeToolTip": "InterfazdeUsuario\\models\\External.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T15:57:02.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FrmLogin.cs",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\Documentos\\GymtrackClone\\Gymtrack_3.0\\interfazdeusuario\\InterfazdeUsuario\\InterfazdeUsuario\\Formularios\\FrmLogin.cs",
+              "RelativeDocumentMoniker": "InterfazdeUsuario\\Formularios\\FrmLogin.cs",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\Documentos\\GymtrackClone\\Gymtrack_3.0\\interfazdeusuario\\InterfazdeUsuario\\InterfazdeUsuario\\Formularios\\FrmLogin.cs",
+              "RelativeToolTip": "InterfazdeUsuario\\Formularios\\FrmLogin.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABUAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T01:40:44.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\Documentos\\GymtrackClone\\Gymtrack_3.0\\interfazdeusuario\\InterfazdeUsuario\\InterfazdeUsuario\\models\\Admin.cs",
+              "RelativeDocumentMoniker": "InterfazdeUsuario\\models\\Admin.cs",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\Documentos\\GymtrackClone\\Gymtrack_3.0\\interfazdeusuario\\InterfazdeUsuario\\InterfazdeUsuario\\models\\Admin.cs",
+              "RelativeToolTip": "InterfazdeUsuario\\models\\Admin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T02:27:30.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RegisterStudent.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\Documentos\\GymtrackClone\\Gymtrack_3.0\\interfazdeusuario\\InterfazdeUsuario\\InterfazdeUsuario\\Formularios\\RegisterStudent.cs",
+              "RelativeDocumentMoniker": "InterfazdeUsuario\\Formularios\\RegisterStudent.cs",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\Documentos\\GymtrackClone\\Gymtrack_3.0\\interfazdeusuario\\InterfazdeUsuario\\InterfazdeUsuario\\Formularios\\RegisterStudent.cs [Design]",
+              "RelativeToolTip": "InterfazdeUsuario\\Formularios\\RegisterStudent.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T15:02:52.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RegisterStudent.cs",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\Documentos\\GymtrackClone\\Gymtrack_3.0\\interfazdeusuario\\InterfazdeUsuario\\InterfazdeUsuario\\Formularios\\RegisterStudent.cs",
+              "RelativeDocumentMoniker": "InterfazdeUsuario\\Formularios\\RegisterStudent.cs",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\Documentos\\GymtrackClone\\Gymtrack_3.0\\interfazdeusuario\\InterfazdeUsuario\\InterfazdeUsuario\\Formularios\\RegisterStudent.cs",
+              "RelativeToolTip": "InterfazdeUsuario\\Formularios\\RegisterStudent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T15:28:35.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Miembros.cs",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\Documentos\\GymtrackClone\\Gymtrack_3.0\\interfazdeusuario\\InterfazdeUsuario\\InterfazdeUsuario\\Formularios\\Miembros.cs",
+              "RelativeDocumentMoniker": "InterfazdeUsuario\\Formularios\\Miembros.cs",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\Documentos\\GymtrackClone\\Gymtrack_3.0\\interfazdeusuario\\InterfazdeUsuario\\InterfazdeUsuario\\Formularios\\Miembros.cs",
+              "RelativeToolTip": "InterfazdeUsuario\\Formularios\\Miembros.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAtwB4AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T15:28:43.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\Documentos\\GymtrackClone\\Gymtrack_3.0\\interfazdeusuario\\InterfazdeUsuario\\InterfazdeUsuario\\Form1.cs",
+              "RelativeDocumentMoniker": "InterfazdeUsuario\\Form1.cs",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\Documentos\\GymtrackClone\\Gymtrack_3.0\\interfazdeusuario\\InterfazdeUsuario\\InterfazdeUsuario\\Form1.cs",
+              "RelativeToolTip": "InterfazdeUsuario\\Form1.cs",
+              "ViewState": "AQIAAFwAAAAAAAAAAAArwHUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T15:38:07.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AboutBox1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\Documentos\\GymtrackClone\\Gymtrack_3.0\\interfazdeusuario\\InterfazdeUsuario\\InterfazdeUsuario\\Formularios\\AboutBox1.cs",
+              "RelativeDocumentMoniker": "InterfazdeUsuario\\Formularios\\AboutBox1.cs",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\Documentos\\GymtrackClone\\Gymtrack_3.0\\interfazdeusuario\\InterfazdeUsuario\\InterfazdeUsuario\\Formularios\\AboutBox1.cs [Design]",
+              "RelativeToolTip": "InterfazdeUsuario\\Formularios\\AboutBox1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T15:10:36.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "FrmAdmin.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\naole\\OneDrive\\GYMTRACK ALGP\\interfazdeusuario\\InterfazdeUsuario\\InterfazdeUsuario\\Formularios\\FrmAdmin.cs",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\Documentos\\GymtrackClone\\Gymtrack_3.0\\interfazdeusuario\\InterfazdeUsuario\\InterfazdeUsuario\\Formularios\\FrmAdmin.cs",
               "RelativeDocumentMoniker": "InterfazdeUsuario\\Formularios\\FrmAdmin.cs",
-              "ToolTip": "C:\\Users\\naole\\OneDrive\\GYMTRACK ALGP\\interfazdeusuario\\InterfazdeUsuario\\InterfazdeUsuario\\Formularios\\FrmAdmin.cs [Design]",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\Documentos\\GymtrackClone\\Gymtrack_3.0\\interfazdeusuario\\InterfazdeUsuario\\InterfazdeUsuario\\Formularios\\FrmAdmin.cs [Design]",
               "RelativeToolTip": "InterfazdeUsuario\\Formularios\\FrmAdmin.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-10T23:33:36.498Z"

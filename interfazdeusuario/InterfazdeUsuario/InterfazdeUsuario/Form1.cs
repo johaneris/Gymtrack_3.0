@@ -110,5 +110,11 @@ namespace InterfazdeUsuario
             FrmLogin admin = new FrmLogin();
             admin.ShowDialog();
         }
+
+        private void btnMiembros_Click(object sender, EventArgs e)
+        {
+            Miembros miembros = new Miembros();
+            miembros.ShowDialog();
+        }
     }
 }
